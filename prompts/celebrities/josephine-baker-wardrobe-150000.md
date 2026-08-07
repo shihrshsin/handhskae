@@ -21,30 +21,30 @@ In mid-1951, an American-born French cabaret star—who the previous October had
 ## Golden Trajectory
 
 **Step 1 — Search:** `"Stork Club" "Josephine Baker" 1951 refused OR discrimination`  
-**Step 1 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — Civil rights / 1950s U.S. section; paragraph on the October 1951 Stork Club incident identifying the star as Josephine Baker.  
-**Step 1 — Verify:** Confirms the American-born French cabaret star tied to the Stork Club refusal is Josephine Baker.  
-**Step 1 — Filter:** Locks the subject; does not yet give the wardrobe dollar figure.
+**Step 1 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — in the civil-rights / early-1950s U.S. material, the October 1951 Stork Club write-up.  
+**Step 1 — Verify:** That’s Baker — American-born, based in France, the singer who said the Stork Club wouldn’t serve her.  
+**Step 1 — Filter:** Name is settled; still nothing on what the invitation said the wardrobe was worth.
 
 **Step 2 — Search:** `"Josephine Baker" "National Council of Negro Women" "National Guard Armory" 1951`  
-**Step 2 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — same biography; Civil rights activism paragraphs covering her early-1950s U.S. appearances and activism (no wardrobe valuation stated).  
-**Step 2 — Verify:** Places Baker in the NCNW / Washington performance context of the prompt.  
-**Step 2 — Filter:** Narrows to mid-1951 Washington promotion materials; still no `$150,000`.
+**Step 2 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — same page, early-1950s U.S. appearances / activism.  
+**Step 2 — Verify:** Fits the Washington / NCNW booking the prompt describes.  
+**Step 2 — Filter:** Still no dollar figure for the wardrobe on that invitation.
 
 **Step 3 — Search:** `"Josephine Baker" "$250,000" wardrobe OR "250,000 Wardrobe" Jet 1951`  
-**Step 3 — Fetch:** https://www.flickr.com/photos/vieilles_annonces/3202349851 — Flickr scan/caption of *Jet*, November 29, 1951, “Josephine Baker and Her $250,000 Wardrobe.”  
-**Step 3 — Verify:** Surfaces the famous contemporary press twin (`$250,000`) for Baker’s 1951 tour wardrobe — **not** the dollar figure printed on the June 19 NCNW invitation.  
-**Step 3 — Filter:** Rejects the Jet tour figure; forces retrieval of the actual invitation letter.
+**Step 3 — Fetch:** https://www.flickr.com/photos/vieilles_annonces/3202349851 — scan/caption of *Jet*, November 29, 1951, “Josephine Baker and Her $250,000 Wardrobe.”  
+**Step 3 — Verify:** Press from that tour really did call the wardrobe $250,000 — easy to grab, but it’s *Jet* in November, not the June invitation.  
+**Step 3 — Filter:** Set $250,000 aside; need the actual letter.
 
 **Step 4 — Search:** `"Josephine Baker" FBI file OR "FBI Files" wardrobe OR "National Council of Negro Women" invitation Hoover`  
-**Step 4 — Fetch:** https://archive.org/details/JosephineBakerFBI — item *Josephine Baker FBI Files*; open part `jbaker2a.pdf`.  
-**Step 4 — Verify:** Confirms an image-only FOIPA scan set (1999 Acrobat PDFWriter; no usable text layer) holding mid-1951 correspondence.  
-**Step 4 — Filter:** Points to the scanned FBI holdings rather than press summaries.
+**Step 4 — Fetch:** https://archive.org/details/JosephineBakerFBI — *Josephine Baker FBI Files*; open `jbaker2a.pdf`.  
+**Step 4 — Verify:** FOIPA release of scanned pages (image PDF, basically no text layer), including 1951 correspondence.  
+**Step 4 — Filter:** Work from the scans, not the magazine roundup.
 
-**Step 5 — Fetch:** https://archive.org/download/JosephineBakerFBI/jbaker2a.pdf — **PDF page 88** (letter dated June 19, 1951, from Dorothy B. Ferebee, President, National Council of Negro Women, Inc., to Mr. J. Edgar Hoover). Body paragraph beginning “In addition to a rare evening of music and exotic dancing…” states: **“Miss Baker will display her famous wardrobe valued at $150,000.00 — the finest creations of the French fashion makers.”** File stamp / serial near foot: recorded July 1951, serial path consistent with `100-348501-18`.  
-**Step 5 — Verify:** Reads the exact wardrobe valuation required by the prompt.  
-**Step 5 — Filter:** Accepts `$150,000` (equivalently `$150,000.00`) and rejects the Jet `$250,000` twin.
+**Step 5 — Fetch:** https://archive.org/download/JosephineBakerFBI/jbaker2a.pdf — **page 88**. Letter dated June 19, 1951, Dorothy B. Ferebee (National Council of Negro Women) to J. Edgar Hoover, plugging the July 2 National Guard Armory show. Mid-letter: *“Miss Baker will display her famous wardrobe valued at $150,000.00 — the finest creations of the French fashion makers.”* Bureau stamp near the bottom (recorded July 1951; serial around `100-348501-18`).  
+**Step 5 — Verify:** That’s the number the invitation actually used.  
+**Step 5 — Filter:** Answer is `$150,000` (or `$150,000.00`); the Jet `$250,000` is a different source.
 
-**Final confirmation:** Contemporary 1951 press (*Jet*, Nov. 29) widely pegs Baker’s wardrobe at `$250,000`. The NCNW invitation of June 19, 1951 — preserved as an image-only page in the FBI FOIPA set — assigns `$150,000.00` instead. That letter figure is not restated on her Wikipedia biography.
+**Final check:** *Jet* (Nov. 29, 1951) went with $250,000 for the tour wardrobe. The June 19 NCNW invite in the FBI file says $150,000.00. Wikipedia never quotes that letter figure.
 
 ---
 
