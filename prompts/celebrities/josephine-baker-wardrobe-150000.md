@@ -21,36 +21,21 @@ In mid-1951, an American-born French cabaret star—who the previous October had
 ## Golden Trajectory
 
 **Step 1 — Search:** `"Stork Club" "Josephine Baker" 1951 refused OR discrimination`  
-**Step 1 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — Stork Club, Oct 1951.  
-**Step 1 — Verify:** That’s the star — Josephine Baker.  
-**Step 1 — Filter:** Name locked; no wardrobe dollar yet.
+**Step 1 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker (Stork Club, Oct 1951) — IDs the star as Josephine Baker.
 
 **Step 2 — Search:** `"Josephine Baker" "National Council of Negro Women" "National Guard Armory" 1951`  
-**Step 2 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — same bio, early-1950s U.S. / Washington context.  
-**Step 2 — Verify:** Fits the NCNW / National Guard Armory booking.  
-**Step 2 — Filter:** Still no wardrobe dollar on the invitation.
+**Step 2 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — confirms the Washington/NCNW booking; no wardrobe dollar.
 
 **Step 3 — Search:** `"Josephine Baker" wardrobe valued OR "wardrobe valued at" OR "$10,000" Miami`  
-**Step 3 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — the `$10,000` Miami club fee.  
-**Step 3 — Verify:** Famous public dollar, but it’s the Miami fee, not the invitation’s wardrobe figure.  
-**Step 3 — Filter:** Reject `$10,000`; need the letter itself.
+**Step 3 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — finds the `$10,000` Miami fee; reject it (wrong figure).
 
 **Step 4 — Search:** `"Josephine Baker" FBI file OR "FBI Files" wardrobe`  
-**Step 4 — Fetch:** https://archive.org/details/JosephineBakerFBI — open `jbaker2a.pdf`.  
-**Step 4 — Verify:** FOIPA scan set with mid-1951 correspondence.  
-**Step 4 — Filter:** Go to the PDF, not press summaries.
+**Step 4 — Fetch:** https://archive.org/details/JosephineBakerFBI — open `jbaker2a.pdf`.
 
-**Step 5 — Fetch:** https://archive.org/download/JosephineBakerFBI/jbaker2a.pdf — **PDF page 88**, June 19, 1951 letter (Dorothy B. Ferebee → Hoover): *“Miss Baker will display her famous wardrobe valued at $150,000.00.”*  
-**Step 5 — Verify:** That’s the invitation’s wardrobe valuation.  
-**Step 5 — Filter:** Answer `$150,000`; not the Miami `$10,000`.
+**Step 5 — Fetch:** https://archive.org/download/JosephineBakerFBI/jbaker2a.pdf — page 88, June 19, 1951 Ferebee→Hoover letter: wardrobe valued at `$150,000.00`.
 
 **Step 6 — Search:** `"Josephine Baker" site:vault.fbi.gov`  
-**Step 6 — Fetch:** https://vault.fbi.gov/josephine-baker — open Part 02.  
-**Step 6 — Fetch:** https://vault.fbi.gov/josephine-baker/Josephine%20Baker%20Part%2002/at_download/file — **PDF page 176**, same June 19, 1951 Ferebee letter; same line: wardrobe valued at `$150,000.00`.  
-**Step 6 — Verify:** Vault copy matches the archive.org page-88 letter.  
-**Step 6 — Filter:** Confirms `$150,000` on an allowed non–archive.org host.
-
-**Final check:** Wiki pushes `$10,000` (Miami). The June 19 NCNW invite says `$150,000.00` — `jbaker2a.pdf` p.88 and Vault Part 02 p.176.
+**Step 6 — Fetch:** https://vault.fbi.gov/josephine-baker and https://vault.fbi.gov/josephine-baker/Josephine%20Baker%20Part%2002/at_download/file — page 176, same letter / same `$150,000.00`.
 
 ---
 
