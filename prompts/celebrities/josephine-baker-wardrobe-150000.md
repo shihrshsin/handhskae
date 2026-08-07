@@ -2,7 +2,7 @@
 
 **Niche figure:** Josephine Baker  
 **Answer:** `$150,000`  
-**Famous twin (model trap):** `$10,000` (Miami club fee she was offered for a segregated audience; also echoes the 1960 Montreal “~$10,000 stolen clothing” wire figure)
+**Famous twin (model trap):** `$250,000` — *Jet* (Nov. 29, 1951) headline/feature “Josephine Baker and Her $250,000 Wardrobe” (also repeated in 1951 U.S. tour accounts: ~45 trunks / $250,000 in costumes). Secondary traps: `$10,000` (Miami segregated-audience fee) and the 1960 Montreal “~$10,000 stolen clothing” wire figure.
 
 ---
 
@@ -30,10 +30,10 @@ In mid-1951, an American-born French cabaret star—who the previous October had
 **Step 2 — Verify:** Places Baker in the NCNW / Washington performance context of the prompt.  
 **Step 2 — Filter:** Narrows to mid-1951 Washington promotion materials; still no `$150,000`.
 
-**Step 3 — Search:** `"Josephine Baker" wardrobe valued OR "wardrobe valued at" OR "$10,000" Miami`  
-**Step 3 — Fetch:** https://en.wikipedia.org/wiki/Josephine_Baker — sentence stating she was offered `$10,000` by a Miami club for a segregated audience (she refused).  
-**Step 3 — Verify:** Surfaces the famous public dollar twin (`$10,000`) that is **not** the wardrobe valuation on the NCNW invitation.  
-**Step 3 — Filter:** Eliminates the Miami fee as the answer; forces a non-Wikipedia primary document hunt.
+**Step 3 — Search:** `"Josephine Baker" "$250,000" wardrobe OR "250,000 Wardrobe" Jet 1951`  
+**Step 3 — Fetch:** https://www.flickr.com/photos/vieilles_annonces/3202349851 — Flickr scan/caption of *Jet*, November 29, 1951, “Josephine Baker and Her $250,000 Wardrobe.”  
+**Step 3 — Verify:** Surfaces the famous contemporary press twin (`$250,000`) for Baker’s 1951 tour wardrobe — **not** the dollar figure printed on the June 19 NCNW invitation.  
+**Step 3 — Filter:** Rejects the Jet tour figure; forces retrieval of the actual invitation letter.
 
 **Step 4 — Search:** `"Josephine Baker" FBI file OR "FBI Files" wardrobe OR "National Council of Negro Women" invitation Hoover`  
 **Step 4 — Fetch:** https://archive.org/details/JosephineBakerFBI — item *Josephine Baker FBI Files*; open part `jbaker2a.pdf`.  
@@ -42,9 +42,9 @@ In mid-1951, an American-born French cabaret star—who the previous October had
 
 **Step 5 — Fetch:** https://archive.org/download/JosephineBakerFBI/jbaker2a.pdf — **PDF page 88** (letter dated June 19, 1951, from Dorothy B. Ferebee, President, National Council of Negro Women, Inc., to Mr. J. Edgar Hoover). Body paragraph beginning “In addition to a rare evening of music and exotic dancing…” states: **“Miss Baker will display her famous wardrobe valued at $150,000.00 — the finest creations of the French fashion makers.”** File stamp / serial near foot: recorded July 1951, serial path consistent with `100-348501-18`.  
 **Step 5 — Verify:** Reads the exact wardrobe valuation required by the prompt.  
-**Step 5 — Filter:** Accepts `$150,000` (equivalently `$150,000.00`) and rejects the Miami `$10,000` twin.
+**Step 5 — Filter:** Accepts `$150,000` (equivalently `$150,000.00`) and rejects the Jet `$250,000` twin.
 
-**Final confirmation:** The open-web / Wikipedia dollar most associated with Baker’s U.S. performance politics is `$10,000` (Miami). The NCNW invitation’s wardrobe figure `$150,000` appears in the image-only FBI scan and is not restated on her Wikipedia biography.
+**Final confirmation:** Contemporary 1951 press (*Jet*, Nov. 29) widely pegs Baker’s wardrobe at `$250,000`. The NCNW invitation of June 19, 1951 — preserved as an image-only page in the FBI FOIPA set — assigns `$150,000.00` instead. That letter figure is not restated on her Wikipedia biography.
 
 ---
 
@@ -52,7 +52,8 @@ In mid-1951, an American-born French cabaret star—who the previous October had
 
 1. https://archive.org/download/JosephineBakerFBI/jbaker2a.pdf — PDF page 88, June 19, 1951 NCNW invitation letter (Ferebee → Hoover); wardrobe sentence with `$150,000.00`.  
 2. https://archive.org/details/JosephineBakerFBI — parent FOIPA release / item page for the Josephine Baker FBI Files.  
-3. https://en.wikipedia.org/wiki/Josephine_Baker — Stork Club (1951) identification; Miami `$10,000` segregated-audience offer (famous twin).
+3. https://en.wikipedia.org/wiki/Josephine_Baker — Stork Club (1951) identification of the star.  
+4. https://www.flickr.com/photos/vieilles_annonces/3202349851 — *Jet*, Nov. 29, 1951, “Josephine Baker and Her $250,000 Wardrobe” (famous twin the model substituted).
 
 ---
 
@@ -60,11 +61,12 @@ In mid-1951, an American-born French cabaret star—who the previous October had
 
 | Model failure | Why it happens |
 |---|---|
+| Answers `$250,000` (**observed**) | Substitutes *Jet*’s Nov. 29, 1951 “$250,000 Wardrobe” tour figure / 45-trunk accounts for the June 19 invitation’s `$150,000` |
 | Answers `$10,000` | Substitutes the famous Miami club fee from Wikipedia / bios |
 | Answers `$3,000,000` / `$3 million` | Confuses with Jet’s later “estate may exceed $3 million” line |
 | Answers `$10,000` (clothing) | Confuses with 1960 Montreal UPI “~$10,000 stolen clothing and music” charge also present in the same FBI set |
 | Gives ticket prices (`$6.00` etc.) | Reads nearby dollar figures on the same letter if partially OCR’d |
-| Abstains / “not publicly stated” | Wardrobe valuation is not on Wikipedia; PDF is image-only and not usefully full-text indexed |
+| Abstains / “not publicly stated” | Letter valuation is not on Wikipedia; PDF is image-only and not usefully full-text indexed |
 
 ---
 
