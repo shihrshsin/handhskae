@@ -5,7 +5,7 @@
 
 ---
 
-## Prompt (88 words)
+## Prompt (72 words)
 
 In the Federal Trade Commission’s 2016 federal district-court challenge to Staples’ proposed acquisition of Office Depot, economist Carl Shapiro’s redacted public demonstrative exhibit PX06500 includes a bar chart of competitor appearances in Office Depot’s consumable-office-supplies win-loss data for 2013 through 2015, drawn from a sample of 1,253 observations and sourced to Exhibit 10 of the Shapiro Report. For the regional supplier W.B. Mason, what exact number of appearances does that chart show?
 
