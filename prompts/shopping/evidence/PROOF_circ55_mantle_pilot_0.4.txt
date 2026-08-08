@@ -1,0 +1,128 @@
+PROOF: NBS Circular 55 Fig. 41 Mantle Pilot mean gas cost
+================================================================
+STATUS: BEST shopping stump candidate (harder than Differin 48-49%)
+DATE: 2026-08-08
+WORKDIR: /tmp/shop3
+
+ANSWER (atomic): 0.4 mills
+  (also acceptable forms: .4 mills ; 0.4 ; .4)
+  Unit note: mill = tenth of a cent; chart legend states this.
+
+DOCUMENT
+--------
+Title: Measurements for the Household
+Series: Circular of the Bureau of Standards No. 55 (1st Edition)
+Issued: August 28, 1913 (GPO print 1915 in this scan)
+Official host URL (curl GET works from this VM; HEAD may 404):
+  https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular55.pdf
+DOI: https://doi.org/10.6028/nbs.circ.55
+Local verified file: /tmp/shop3/circ55_dl.pdf
+  md5: f6470b7bdf9421b563846cfc26b0d940
+  pages: 156
+  size: 14097402 bytes
+
+LOCUS
+-----
+Printed page: 98
+PDF page: 102
+Figure: Fig. 41. Cost of gas used per hour in some common gas appliances
+Row (bottom): Mantle Pilot
+Bar numerals (min / max / mean): .3 / .5 / .4
+Chart legend: NUMERALS REFER TO COST PER HOUR IN MILLS (TENTHS OF A CENT).
+Basis stated under figure: gas at $1 per 1000 cubic feet.
+
+FULL FIG. 41 TABLE (image-read; for cross-check)
+------------------------------------------------
+(Fish Tail) Burner                  min 4    max 10   mean 6
+Inverted Mantle                     min 3    max 5    mean 3.5
+Regular Upright Mantle              min 3    max 5    mean 3.5
+Junior Upright Mantle               min 1    max 2    mean 1.5
+(Fish Tail) Burner - Turned Down    min .5   max 2    mean 1
+Mantle Pilot                        min .3   max .5   mean .4
+
+WHY THIS BEATS DIFFERIN
+-----------------------
+Failed Differin pattern: famous Rx-to-OTC switch; FDA OtherR package too
+discoverable; specialty prose too clean once PDF found.
+
+This stump:
+1. Obscure household utility chart inside a 1915 NBS consumer circular
+   (not a headline OTC switch, not a modern AMS/FDA package).
+2. Answer is NOT quoted on the open web when searching product +
+   gas/mantle/pilot/cost keywords (searches return modern BTU pilot
+   costs, not 0.4 mills).
+3. Image-only for the numeric answer; dense bar chart (OCR-hostile).
+4. Searchable DIFFERENT twin in text layer (see below).
+5. Shopping-relevant: household purchasing / operating cost of common
+   gas lighting appliances when comparing retail utility spend.
+6. 3+ hops required.
+7. Official nvlpubs.nist.gov curl-downloadable (verified).
+8. No archive.org verification needed.
+
+IMAGE-ONLY vs TEXT LAYER (pdftotext page 102)
+---------------------------------------------
+Present in text layer (searchable twins / labels):
+  - "Mantle Pilot" (label only)
+  - "Junior Upright Mantle", "Regular Upright Mantle", "Inverted Manf/e"
+  - Garbled top-row twin: "Minimum 3 4" / "Mean - 6" / "Maximum s SO"
+  - Prose DIFFERENT twin (heater pilot, not mantle pilot):
+      "The pilot-flame gas for these heaters would amount to
+       one-tenth of a cent per hour."
+      (= 1 mill, NOT 0.4 mills)
+  - Other prose twins in cents (wrong unit / wrong appliance):
+      water heater 3 to 8 cents; room heaters 5 to 12 cents;
+      automatic heaters 10 to 25 cents; match one-tenth mill.
+
+ABSENT from text layer (verified False):
+  '.4'  '0.4'  '.3'  '0.3'  '1.5'  '3.5'  '.5'
+  (all Fig. 41 bar means/mins for mantle rows missing)
+
+HALLUCINATION BAITS (models will tend to answer these instead)
+--------------------------------------------------------------
+1. one-tenth of a cent / 1 mill  (heater pilot prose twin on same page)
+2. modern web pilot costs (~0.6-1.8 cents/hr or $5-15/month BTU calcs)
+3. Fish Tail Mean = 6  (only partially extractable garbled twin)
+4. Junior Upright Mantle 1.5  (wrong row if OCR lands on nearby bars)
+5. reading mill as cent, or answering 0.04 cents without mills
+
+HOPS (3+)
+---------
+1. Recognize need for early federal household gas-appliance operating-cost
+   comparison guidance (not modern utility blogs).
+2. Locate NBS Circular 55, Measurements for the Household.
+3. Navigate Gas section to Fig. 41 cost chart (mills per hour).
+4. Read the Mantle Pilot mean bar numeral (.4), resisting the nearby
+   heater-pilot prose twin (one-tenth of a cent).
+
+WEB SEARCH RESISTANCE (checked 2026-08-08)
+------------------------------------------
+Queries that do NOT surface 0.4 mills:
+  - "Mantle Pilot" mills gas household
+  - "Junior Upright Mantle" OR "NUMERALS REFER TO COST PER HOUR IN MILLS"
+  - "Mantle Pilot" "measurements for the household"
+  - "Fish Tail" Burner "Mean = 6" gas mills
+Hits return modern gas-lamp BTU pages, microwave manuals ("fish tail"),
+or unrelated NBS gas-service circulars without this chart's numerals.
+
+DOWNLOAD / OCR COMMANDS USED
+----------------------------
+curl -fsSL -A "Mozilla/5.0" -o circ55_dl.pdf \
+  "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular55.pdf"
+pdftotext -f 102 -l 102 -layout circ55_dl.pdf -
+pdftoppm -png -r 220 -f 102 -l 102 circ55_dl.pdf circ55_gas
+# Visual OCR of fig; tesseract fails on Mantle Pilot .4 (hostile)
+
+HUMANIZED PROMPT DRAFT (no website names; no em dashes)
+-------------------------------------------------------
+See: /tmp/shop3/PROMPT_mantle_pilot_0.4.txt
+
+REJECTED NEAR-MISSES FROM THIS SCOUT
+------------------------------------
+- Circ 407 paper towel sample 51 absorption 856 s: value is in text
+  layer and appears in govinfo/search snippets (Differin-class leak).
+- Circ 55 gas-meter dial Figs 37-40: captions partially extractable /
+  garbled but too close to clear dial-reading tutorials.
+- Circ 425 / Circ 10 legal bushel weights: many cells web-quoted in
+  circulars' own HTML/govinfo OCR mirrors.
+- CS46 hosiery lengths: tables largely text-extractable.
+- Modern USDA AMS commodity specs: clear text, highly searchable.

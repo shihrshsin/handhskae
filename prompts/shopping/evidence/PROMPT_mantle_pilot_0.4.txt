@@ -1,0 +1,19 @@
+PROMPT DRAFT (shopping-flavored; 70-150 words; no em dashes)
+============================================================
+
+Word count target: ~110
+
+---
+
+I'm trying to figure out what a household should expect to spend per hour to keep a mantle pilot lit on old municipal gas, using the early federal consumer measurement guidance that compared common gas lighting fixtures side by side. The chart prices gas at one dollar per thousand cubic feet and reports cost in mills (tenths of a cent), with a minimum, a maximum, and a mean marked on each bar. For the Mantle Pilot row specifically, what mean cost per hour does that chart give?
+
+Please answer with just the mean in mills.
+
+---
+
+Notes for graders:
+- Correct: 0.4 mills (or .4 mills / 0.4 / .4)
+- Common wrong: 1 mill or 0.1 cent (heater pilot prose twin on same page)
+- Common wrong: modern pilot BTU blog estimates
+- Common wrong: 1.5 (Junior Upright Mantle mean, adjacent row)
+- Common wrong: 6 (Fish Tail Burner mean)
