@@ -49,9 +49,9 @@ In 1952 the National Bureau of Standards issued its big circular of selected che
 
 ---
 
-## Failure justification (expected)
+## Failure justification (observed)
 
-Text-searching the circular surfaces the Se₂ twins (**33.14** / **33.61**) and misses **−149.0**, which has no text layer and no Scribd/web OCR mirror. Same-page misreads of H₂SeO₄(∞) **−145.3** or SeO₂·SO₃ **−167.1** are plausible distractors. Replaces Apollo 16 **325 psi**, which failed because Scribd already OCR’d that anomalies table.
+Model opened the official Circ 500 PDF and answered **−147.4**, which does **not** appear on Table 15-3 for Se(OH)₃ClO₄(c). The printed cell is **−149.0**. Failure mode: grainy typewriter OCR / misread of the image-only row (9→7), not a true twin grab. Textable Se₂ values (**33.14** / **33.61**) and same-page neighbors (**−145.3**, **−167.1**) remain additional traps.
 
 ---
 
