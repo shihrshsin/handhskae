@@ -6,7 +6,7 @@
 
 ---
 
-## Prompt (112 words)
+## Prompt (77 words)
 
 In NASA’s 1972 Saturn V launch-vehicle flight evaluation report for the Apollo 16 mission (vehicle AS-511), the front-matter summary of significant anomalies includes a table entry for excessive J-2 Engine No. 4 helium consumption during S-II engine start. That entry compares the observed system pressure drop with a stated “normal” drop. Ignoring the later narrative’s “nominal” and observed-drop figures, what exact pressure drop in pounds per square inch does that anomalies-summary table cite as the normal value?
 
