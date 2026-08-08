@@ -7,9 +7,9 @@
 
 ---
 
-## Prompt (85 words)
+## Prompt (92 words)
 
-In the National Bureau of Standards’ 1952 circular that compiled selected values of chemical thermodynamic properties—the Series I tables often nicknamed after that circular’s publication number—the selenium section lists the crystalline complex written Se(OH)₃ClO₄. Ignore the adjacent Se₂(g) entries and every other selenium oxyacid or halide on those pages. For crystalline Se(OH)₃ClO₄ alone, what exact value in kilocalories per mole does the table give for the standard heat of formation at 298.16 K (25 °C)? Give the signed figure exactly as printed, including the tenth.
+In 1952 the National Bureau of Standards published a thick circular of selected chemical thermodynamic properties—Series I tables that chemists still nickname by the circular’s number. In the selenium pages of that compilation, one row covers the crystalline complex written Se(OH)₃ClO₄. What heat of formation, in kilocalories per mole at 298.16 K, does that row list for the crystalline solid?
 
 ---
 
