@@ -43,9 +43,11 @@ In the Bureau of Reclamation’s 1995 final environmental impact statement on th
 
 ## Verification Sources
 
-1. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — Reclamation’s official chapter-by-chapter *Operation of Glen Canyon Dam* Final EIS (March 1995) index; links Cover/Summary and Chapter 3 PDFs.  
-2. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf — Chapter 3, printed page 157 / Chapter PDF page 92, Figure III-37 (5,000→15,000 cfs = **18%**) and adjacent body-text **35%** (5,000→25,000 cfs).  
-3. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — Environmental issues / operations; identifies the 1995 operations EIS.
+1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — Environmental issues / operations; identifies the 1995 operations EIS.  
+2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — Reclamation’s official chapter-by-chapter *Operation of Glen Canyon Dam* Final EIS (March 1995) index; links Cover/Summary and Chapter 3 PDFs.  
+3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf — Cover/Summary; preferred alternative is the Modified Low Fluctuating Flow Alternative.  
+4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf — Chapter 3, printed page 157 / Chapter PDF page 92, Figure III-37 (5,000→15,000 cfs = **18%**) and adjacent body-text **35%** (5,000→25,000 cfs).  
+5. http://www.riversimulator.org/Resources/USBR/LTEP/1995EIS.pdf — full-bound FEIS mirror; twin search for body-text **35%**; Figure III-37 at printed p.157 / full-PDF p.179 (raster **18%**).
 
 ---
 
@@ -56,4 +58,5 @@ In the Bureau of Reclamation’s 1995 final environmental impact statement on th
 | Don’t credit Wikipedia for “Modified Low Fluctuating Flow Alternative” | MLFF confirmed on **USBR Cover/Summary PDF**, not wiki |
 | Sharper point on why 18% is hard | Figure III-37 is a **raster image with no text layer**; PDF text search returns nothing for 18% |
 | Use internal calibration | Body-text **35%** (5k→25k) matches the **fourth bar**, calibrating the chart before accepting **18%** |
-| Three verification sources; answer on lead-agency server | Added **usbr.gov** FEIS index + Chapter 3 PDF; decisive figure sits on Reclamation’s host |
+| GT / Verification Sources link parity | Every URL in GT is listed in Verification Sources (wiki, USBR index, Cover/Summary, Chapter 3, riversimulator mirror) |
+| Answer on lead-agency server | Decisive Figure III-37 cited on **usbr.gov** Chapter 3 PDF, not only the volunteer mirror |
