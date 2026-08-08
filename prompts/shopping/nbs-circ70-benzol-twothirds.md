@@ -3,7 +3,9 @@
 **Answer:** `2/3`  
 **Famous twin:** `1/2` - PDF text layer OCR of that benzol cell is garbled as `Vz` (reads like a half); `1/2` also appears elsewhere in the circular’s measure tables.  
 **Same-table traps:** raw linseed oil **3/4** pint; turpentine **1 3/4** pints; Japan drier **1** ounce (yellow pine/cypress first coat).  
-**Why hard / deeper than Differin & Nizoral:** 1917 grainy additions table cell, not a modern FDA EA numeral. Whole-PDF text search has **no** `2/3`. Adjacent prose only says “a small amount of benzol.” Tesseract often invents other fractions. Not quoted on the open web with this recipe.
+**Why hard:** 1917 grainy additions table cell. Whole-PDF text search has **no** `2/3`. Adjacent prose only says “a small amount of benzol.” Text-layer `Vz` pushes models to **1/2**.
+
+**Observed model failure:** Answered **½ pint** from govinfo Circ. 70 OCR/text, missing the printed **2/3**.
 
 ---
 
@@ -31,13 +33,13 @@ A householder is mixing white-lead paint on the job for outside work, following 
 
 **Step 5 - Filter:** Need the “White Lead Mixed on the Job, for Outside Exposure” additions table, first coat, yellow pine or cypress column, benzol row, not the ready-mixed percent recipes below and not the basswood column blanks.
 
-**Step 6 - Fetch (twin / trap):** https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular70.pdf - PDF page **123** / printed **121**. Text layer shows the benzol unit line and a garbled cell `Vz` (½-like). Prose above only says add “a small amount of benzol.” Reject `1/2`.
+**Step 6 - Fetch (twin / trap):** https://www.govinfo.gov/content/pkg/GOVPUB-C13-b1035c184821d621ef900eaf6e51d7af/pdf/GOVPUB-C13-b1035c184821d621ef900eaf6e51d7af.pdf - same Circ. 70 on GovInfo. Text/OCR of the benzol cell reads like **1/2** (`Vz` / ½). Prose above only says add “a small amount of benzol.” Reject.
 
-**Step 7 - Fetch (answer):** same PDF page **123** / printed **121** - additions table, Benzol / pint row, Yellow pine or cypress first-coat cell = **2/3**.
+**Step 7 - Fetch (answer):** https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular70.pdf - PDF page **123** / printed **121** - additions table, Benzol / pint row, Yellow pine or cypress first-coat cell = **2/3** (raster fraction; no `2/3` in text layer).
 
 **Step 8 - Verify:** Whole-PDF text search finds no `2/3`. Answer = **2/3**.
 
-**Step 9 - Twin:** OCR/text suggests **1/2** (`Vz`); true printed fraction is **2/3**.
+**Step 9 - Twin:** OCR/text suggests **1/2**; true printed fraction is **2/3**.
 
 ---
 
@@ -45,13 +47,14 @@ A householder is mixing white-lead paint on the job for outside work, following 
 
 1. https://doi.org/10.6028/nbs.circ.70 - NBS Circular 70 metadata.  
 2. https://api.crossref.org/works/10.6028/nbs.circ.70 - Crossref work record for Circ. 70.  
-3. https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular70.pdf - PDF page 123 / printed 121, benzol first-coat yellow pine/cypress cell **2/3**; text-layer twin `Vz` / **1/2**.
+3. https://www.govinfo.gov/content/pkg/GOVPUB-C13-b1035c184821d621ef900eaf6e51d7af/pdf/GOVPUB-C13-b1035c184821d621ef900eaf6e51d7af.pdf - GovInfo Circ. 70; text/OCR twin path that yields **1/2**.  
+4. https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular70.pdf - PDF page 123 / printed 121, benzol first-coat yellow pine/cypress cell **2/3**.
 
 ---
 
-## Failure justification (expected)
+## Failure justification (observed)
 
-Differin and Nizoral failed because modern FDA scans had clear, discoverable numerals. Here the model that reaches Circ. 70 still tends to trust the text-layer `Vz` as **1/2**, or grab neighboring **3/4** / **1 3/4**, or follow web priming advice (“about a pint” / “40 percent benzol”) instead of the tiny printed **2/3** cell.
+Model opened Circ. 70 (via GovInfo) and answered **½ pint**, trusting the text-layer/OCR garble of the benzol cell (`Vz` → half). The printed yellow pine or cypress first-coat benzol cell is **2/3**. No `2/3` exists in the PDF text layer for it to correct against.
 
 ---
 
@@ -68,5 +71,4 @@ Differin and Nizoral failed because modern FDA scans had clear, discoverable num
 - [x] Answer absent from text layer; twin present as OCR garble  
 - [x] No em dashes  
 - [x] Shopping-relevant (household paint materials / on-the-job mixing)  
-- [x] Not a clean modern FDA EA table  
-- [x] Not a Staples-style labeled bar chart  
+- [x] Observed stump (model answered `1/2`)  
