@@ -3,6 +3,7 @@
 **Answer:** `60%`  
 **Famous twins:** `92%` (Fair/Good under constant/steady flows on the same chart, and in Chapter 4 prose); `64%` (Chapter 4 text for fair-to-good mooring under fluctuating-flow / no-action style operations).  
 **Secondary traps:** `40%` (Fluctuating Poor/Bad on the same chart); counts `76` / `53` / `119` / `10`.  
+**Observed model failure:** Answered `54%` (misread/hallucinated the Fluctuating Fair/Good bar on Figure III-39; correctly contrasted the **92%** steady-flow twin).  
 **Doc:** Same 1995 Glen Canyon Dam operations FEIS as the `18%` / `239` / `47%` / `3.6` recreation stumps. Different figure (mooring-quality bars on printed p.159).
 
 ---
