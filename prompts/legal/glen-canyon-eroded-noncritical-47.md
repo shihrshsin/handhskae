@@ -2,7 +2,8 @@
 
 **Answer:** `47%`  
 **Famous twin:** `nearly 50 percent` / `50%` — same-page body text on vegetation encroachment in wider noncritical reaches.  
-**Secondary traps:** Critical-pie **71%** (Eroded); Non-Critical **27%** (Other), **22%** (Eroded/Overgrown), **4%** (Overgrown).  
+**Secondary traps:** Non-Critical **27%** (Other); **22%** (Eroded/Overgrown); **4%** (Overgrown); Critical **71%** (Eroded).  
+**Observed model failure:** Answered `27%` (misread the Non-Critical **Other** slice as **Eroded**; also leaned on a CiteSeerX secondary paper).  
 **Doc:** Same 1995 Glen Canyon Dam operations FEIS Chapter 3 as the `239` table stump and the `18%` inundation bar stump — different figure (pie, not table/bar).
 
 ---
@@ -60,7 +61,7 @@ In the Bureau of Reclamation’s 1995 final environmental impact statement on th
 
 ## Failure justification
 
-Models answer **50%** (or “nearly 50 percent”) from the selectable body sentence on printed page 156 about vegetation encroachment in noncritical reaches. That sentence cites Figure III-36 but is not the Non-Critical **Eroded** pie label. The exact slice is **47% (91)** on the raster pie — unread if the model stops at the prose twin.
+The model answered **27%**, which is the Non-Critical Reaches **Other** slice on Figure III-36 — not **Eroded**. The Non-Critical **Eroded** slice is **47% (91)**. It also leaned on a CiteSeerX secondary paper and swapped categories (claiming 27% eroded / 47% overgrown), which does not match the FEIS pie labels (Eroded 47%, Overgrown 4%, Other 27%, Eroded/Overgrown 22%). So it misread the raster legend instead of reporting the Non-Critical **Eroded** percentage.
 
 ---
 
