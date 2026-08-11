@@ -62,7 +62,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-The model answered **54%**, after web search. Figure III-39's Fluctuating Fair/Good label is **60% (76)**, not 54%. It correctly treated the prompt's **92%** as the steady-flow comparison and still never recovered the true fluctuating Fair/Good percentage from the zero-text chart.
+The model answered **67%**, citing the riversimulator full-bound FEIS mirror. Figure III-39's Fluctuating Fair/Good label is **60% (76)**, not 67%. That numeral is image-only on the zero-text chart page, so the model never recovered the true bar label. **67%** is also not the Chapter 4 searchable twin (**64%** fair-to-good under fluctuating-flow alternatives); it is simply a wrong OCR/read of the raster. An earlier browsing run made the same class of error with **54%**.
 
 ---
 
@@ -74,7 +74,7 @@ The model answered **54%**, after web search. Figure III-39's Fluctuating Fair/G
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [x] Observed fail = chart misread (`54%` ≠ `60%`)  
+- [x] Observed fail = chart misread (`67%` / earlier `54%` ≠ `60%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from `18%` / `239` / `47%` / `3.6` stumps from the same FEIS  
