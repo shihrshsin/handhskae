@@ -61,7 +61,7 @@ In the Bureau of Reclamation’s 1995 final environmental impact statement on th
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **3.1**, after browsing to the usbr.gov Chapter 3 FEIS and naming Figure III-38. The Deer Creek 1983 bar on that zero-text chart is **3.6**, not 3.1 — an OCR/misread of the raster label. It correctly recited the prose twin (**2.3** sites per mile for the 1991 inventory) but never recovered the true 1983 Deer Creek numeral from the image.
 
 ---
 
@@ -73,6 +73,6 @@ In the Bureau of Reclamation’s 1995 final environmental impact statement on th
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = chart misread (`3.1` ≠ `3.6`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] Distinct from `18%` / `239` / `47%` stumps from the same chapter  
