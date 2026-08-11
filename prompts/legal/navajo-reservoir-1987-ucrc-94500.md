@@ -6,9 +6,9 @@
 
 ---
 
-## Prompt (98 words)
+## Prompt (104 words)
 
-On October 22, 1987, the Upper Colorado River Commission adopted a resolution concerning a proposed Bureau of Reclamation hydrologic determination on water availability from Navajo Reservoir and the Upper Colorado River Basin for use in New Mexico. Setting aside any Upper Basin yield figures discussed in that same resolution, and aside from amounts to be contracted for the San Juan-Chama Project, the Hammond Project, and the Navajo Indian Irrigation Project, how many acre-feet per year did the Commission resolve it would not object to the Secretary of the Interior determining were reasonably likely to be available for contract from the Navajo Reservoir supply for use in New Mexico?
+On October 22, 1987, the Upper Colorado River Commission adopted a resolution concerning a proposed Bureau of Reclamation hydrologic determination on water availability from Navajo Reservoir and the Upper Colorado River Basin for use in New Mexico. Setting aside any Upper Basin yield figures discussed in that same resolution, and aside from amounts to be contracted for the San Juan-Chama Project, the Hammond Project, and the Navajo Indian Irrigation Project, how many acre-feet per year did the Upper Colorado River Commission resolve that the Commission would not object to the Secretary of the Interior determining were reasonably likely to be available for contract from the Navajo Reservoir supply for use in New Mexico?
 
 ---
 
@@ -67,6 +67,7 @@ Models that miss the UCRC operative paragraph often latch onto the same document
 | **Self-authored raw.githubusercontent transcription not an independent source** | Removed GitHub HTML/PDF excerpts from GT and Verification Sources entirely. |
 | **No official text/HTML page for 22,500** | Changed the question. New answer **`94500`** is highlightable in the official UCRC Oct. 22, 1987 resolution PDF (selectable text layer on riversimulator / Law of the River supplement host). |
 | **GT ↔ Verification link parity** | Verification Sources = exactly the three GT Fetch URLs (Arizona HTML, 1987 UCRC PDF, 2007 HD PDF). No Wikipedia leftovers. |
+| **Grammatical Attachment — ambiguous “it”** | Replaced “did the Commission resolve it would not object” with “did the Upper Colorado River Commission resolve that the Commission would not object,” so the non-objection belongs only to the Commission, not the Secretary. |
 
 ---
 
