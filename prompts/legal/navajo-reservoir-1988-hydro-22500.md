@@ -55,11 +55,15 @@ In February 1989 the Acting Secretary of the Interior signed a hydrologic determ
 
 ## Verification Sources
 
+(Must match GT URLs 1:1 — no extras, no omissions.)
+
 1. http://water.library.arizona.edu/body.1_div.24.html — both projects + P.L. 87-483 §11(a) duty (HTML).  
 2. http://www.riversimulator.org/Resources/USBR/HydroDetermination1988.pdf — title p.1; Acting Secretary Gjelde letter p.41 (Feb. 1989; P.L. 87-483; states **22,500**); Introduction p.5 (§11 / 1984 **69,000** through 2039); Determination § VI p.23 / printed p.20 (**22,500**); Executive Summary p.4.  
 3. http://www.riversimulator.org/Resources/USBR/2007HydrologicDetermination.pdf — text-layer twin **6.0** maf.  
 4. https://raw.githubusercontent.com/shihrshsin/handhskae/cursor/legal-navajo-22500-hydro-bcfc/verification/navajo-1988-hd-22500-excerpts.html — highlightable HTML with **22,500**.  
 5. https://raw.githubusercontent.com/shihrshsin/handhskae/cursor/legal-navajo-22500-hydro-bcfc/verification/navajo-1988-hd-22500-excerpts.pdf — searchable text-layer companion of the same excerpts.
+
+**Do not include:** `https://en.wikipedia.org/wiki/Navajo_Indian_Irrigation_Project` or `https://en.wikipedia.org/wiki/Navajo_Reservoir` (not used in GT).
 
 ---
 
@@ -92,3 +96,4 @@ The model answered **20,200** acre-feet/year (the 1967 Public Service Co. divers
 | **Major — Step 2 “1988” not from prompt/prior step** | Step 2 search no longer includes “1988”. Query uses only prompt + Step 1 facts (Navajo Reservoir, hydrologic determination, Acting Secretary, 1989, P.L. 87-483). The “1988” report title is read from the fetched PDF cover in Step 2 Verify. |
 | **Major — final answer not highlightable / not in HTML** | Official riversimulator PDF is image-only. Added highlightable HTML (+ searchable PDF companion) under `verification/navajo-1988-hd-22500-excerpts.*` with the verbatim § VI / Executive Summary text containing **22,500**; fetched as Step 7 and listed in Verification Sources. |
 | **Minor + link parity — Navajo Reservoir Wikipedia** | Dropped `https://en.wikipedia.org/wiki/Navajo_Reservoir` from Verification Sources (it was unused). GT and Verification Sources now share the same URL set. |
+| **GT↔Verification Links Mapping Check** | Removed leftover Wikipedia NIIP + Navajo Reservoir from Verification Sources (not in GT). Added Arizona HTML + both highlightable excerpt URLs to Verification Sources so they match the GT Fetch steps exactly. |
