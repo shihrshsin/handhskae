@@ -62,7 +62,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **54%**, after web search. Figure III-39's Fluctuating Fair/Good label is **60% (76)**, not 54%. It correctly treated the prompt's **92%** as the steady-flow comparison and still never recovered the true fluctuating Fair/Good percentage from the zero-text chart.
 
 ---
 
@@ -74,7 +74,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = chart misread (`54%` ≠ `60%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from `18%` / `239` / `47%` / `3.6` stumps from the same FEIS  
