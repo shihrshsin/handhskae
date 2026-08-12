@@ -61,7 +61,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-The model answered **9%**, after browsing the usbr.gov Chapter 3 FEIS and naming the 5,000 to 8,000 cfs range. Figure III-37's 5,000 to 8,000 cfs bar is **5%**, not 9%. The same-page body-text twin is **35%** (5,000 to 25,000 cfs), and the chart's other bars are **18%** / **25%** / **35%**. So it found the right chart and range but never recovered the true bar label from the raster figure.
+The model answered **8%**, citing the usbr.gov Chapter 3 PDF and naming the 5,000 to 8,000 cfs range. Figure III-37's 5,000 to 8,000 cfs bar is **5%**, not 8%. The same-page body-text twin is **35%** (5,000 to 25,000 cfs), and the chart's other bars are **18%** / **25%** / **35%**. So it found the right chart and range but never recovered the true bar label from the raster figure. An earlier browsing run made the same class of error with **9%**.
 
 ---
 
@@ -73,7 +73,7 @@ The model answered **9%**, after browsing the usbr.gov Chapter 3 FEIS and naming
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [x] Observed fail = chart misread (`9%` ≠ `5%`)  
+- [x] Observed fail = chart misread (`8%` / earlier `9%` ≠ `5%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from `18%` / `25%` bars on the same figure  
