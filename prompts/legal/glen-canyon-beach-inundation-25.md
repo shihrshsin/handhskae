@@ -3,7 +3,7 @@
 **Answer:** `25%`  
 **Famous twin:** `35%` - same-page body text ("An average of 35 percent of potential campsite area is inundated when releases increase from 5,000 to 25,000 cfs").  
 **Secondary traps:** `18%` (5,000 to 15,000 bar, already used as a prior stump); `5%` (5,000 to 8,000); `36%` (size-class change prose on the same page).  
-**Observed model failure:** Answered `50%` (misread/hallucinated the 15,000 to 25,000 inundation bar on Figure III-37 after browsing usbr.gov).  
+**Observed model failure:** Answered `18%` (reported the adjacent 5,000 to 15,000 bar on Figure III-37 as if it were the 15,000 to 25,000 bar; cited usbr.gov Chapter 3). Earlier browsing run answered `50%`.  
 **Doc:** Same 1995 Glen Canyon Dam operations FEIS Chapter 3 as the `18%` inundation stump - same figure, different bar (15-25 instead of 5-15).
 
 ---
