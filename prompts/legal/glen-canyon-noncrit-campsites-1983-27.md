@@ -61,7 +61,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **2.3**, claiming Figure III-38 shows that as the Non-critical 1983 value. The 1983 Non-critical bar is **2.7**; **2.3** is the Deer Creek prose twin on printed p.157 (and the 1991 Deer Creek chart bar) that the prompt uses as bait. So it treated a nearby narrative twin as the requested chart value instead of reading the zero-text 1983 Non-critical bar.
 
 ---
 
@@ -73,7 +73,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = twin (`2.3` ≠ `2.7`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from Deer Creek `3.6` stump on the same figure  
