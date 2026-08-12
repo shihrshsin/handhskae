@@ -3,7 +3,7 @@
 **Answer:** `2.7`  
 **Famous twins:** `1.1` (noncritical reaches average in body text - the 1991 chart bar); `2.3` (Deer Creek in body text); `1.0` (corridor-wide average).  
 **Secondary traps:** `1.9` (1983 Total / 1973 Non-critical); `0.9` (1983 Critical); `3.6` (1983 Deer Creek, prior stump).  
-**Observed model failure:** Answered `2.3` (took the Deer Creek prose twin / prompt bait as the 1983 Non-critical chart value).  
+**Observed model failure:** Answered `1.7` (misread the 1983 Non-critical bar on Figure III-38 after citing usbr.gov Chapter 3; correctly used the **1.1** 1991 prose twin as contrast). Earlier browsing run answered `2.3` (Deer Creek twin).  
 **Doc:** Same 1995 Glen Canyon Dam operations FEIS Chapter 3 / Figure III-38 as the Deer Creek `3.6` stump - different bar (Non-critical 1983).
 
 ---
@@ -61,7 +61,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-The model answered **2.3**, claiming Figure III-38 shows that as the Non-critical 1983 value. The 1983 Non-critical bar is **2.7**; **2.3** is the Deer Creek prose twin on printed p.157 (and the 1991 Deer Creek chart bar) that the prompt uses as bait. So it treated a nearby narrative twin as the requested chart value instead of reading the zero-text 1983 Non-critical bar.
+The model answered **1.7**, citing the usbr.gov Chapter 3 PDF and contrasting that against the **1.1** 1991 noncritical prose figure. Figure III-38's 1983 Non-critical bar is **2.7**, not 1.7. That numeral is image-only on the zero-text chart page, so the model never recovered the true bar label from the raster. An earlier browsing run made a different error with the Deer Creek twin **2.3**.
 
 ---
 
@@ -73,7 +73,7 @@ The model answered **2.3**, claiming Figure III-38 shows that as the Non-critica
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [x] Observed fail = twin (`2.3` ≠ `2.7`)  
+- [x] Observed fail = chart misread (`1.7` / earlier twin `2.3` ≠ `2.7`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from Deer Creek `3.6` stump on the same figure  
