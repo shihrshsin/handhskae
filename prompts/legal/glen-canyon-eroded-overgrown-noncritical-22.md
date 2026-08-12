@@ -61,7 +61,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **23%**, after browsing to a CiteSeerX secondary paper rather than reading Figure III-36 on the usbr.gov Chapter 3 FEIS. The Non-Critical **Eroded/Overgrown** pie slice is **22% (44)**, not 23%. It also inverted categories (claiming 27% eroded / 47% overgrown), which does not match the FEIS Non-Critical labels (Eroded **47%**, Overgrown **4%**, Other **27%**, Eroded/Overgrown **22%**). So it never recovered the true combined-slice percentage from the raster pie.
 
 ---
 
@@ -73,7 +73,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = secondary near-miss (`23%` ≠ `22%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from Non-Critical Eroded `47%` stump on the same figure  
