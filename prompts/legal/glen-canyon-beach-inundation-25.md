@@ -61,7 +61,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **50%**, after browsing usbr.gov material on the 1995 FEIS. Figure III-37's 15,000 to 25,000 cfs bar is **25%**, not 50%. The same-page body-text twin is **35%** (5,000 to 25,000 cfs), and the chart's other bars are **5%** / **18%** / **35%**. So it never recovered the true 15-25 bar label from the raster figure.
 
 ---
 
@@ -73,7 +73,7 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = chart misread (`50%` ≠ `25%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from `18%` bar on the same figure  
