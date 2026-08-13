@@ -61,7 +61,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **17%**, after browsing and naming Figure III-36 / Critical Reaches. The Critical **Overgrown** slice is **15% (6)**, not 17%. It also leaned on a secondary campsite paper and inverted Non-Critical categories. So it never recovered the true Critical Overgrown label from the raster pie.
 
 ---
 
@@ -74,7 +74,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = chart near-miss (`17%` ≠ `15%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Lean discovery: no agency / chapter / figure-number spoon-feeding  
