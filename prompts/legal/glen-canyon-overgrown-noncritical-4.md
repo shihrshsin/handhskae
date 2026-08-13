@@ -61,7 +61,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **47%**, after web search. Figure III-36's Non-Critical **Overgrown** slice is **4% (8)**, not 47%. **47%** is the Non-Critical **Eroded** slice on the same pie. The model also leaned on a secondary campsite paper and treated the prompt's nearly-**50%** vegetation-encroachment twin as if it named the Overgrown-alone percentage. So it never recovered the true Overgrown label from the raster pie.
 
 ---
 
@@ -73,7 +73,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = wrong slice / twin (`47%` ≠ `4%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Lean discovery: no agency / chapter / figure-number spoon-feeding  
