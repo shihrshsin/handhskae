@@ -61,7 +61,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Fill after live ChatGPT web-browsing run.)*
+The model answered **7%**, citing usbr.gov Chapter 3 and even the camp count **(3)**. That is the **Critical Reaches** Other slice on Figure III-36, not the Non-Critical Reaches Other slice. Non-Critical Other is **27% (52)**. So it found the right figure but read the wrong pie.
 
 ---
 
@@ -73,7 +73,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 - [x] Official usbr.gov host  
 - [x] No self-authored verification pages  
 - [x] Answer only on raster chart; twins in searchable text  
-- [ ] Observed fail recorded  
+- [x] Observed fail = wrong pie (`7%` Critical Other ≠ `27%`)  
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Lean discovery: no agency / chapter / figure-number spoon-feeding  
