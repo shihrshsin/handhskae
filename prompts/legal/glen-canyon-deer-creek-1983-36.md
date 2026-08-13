@@ -8,9 +8,9 @@
 
 ---
 
-## Prompt (87 words)
+## Prompt (68 words)
 
-In the Bureau of Reclamation's 1995 final environmental impact statement on the operation of Glen Canyon Dam, whose preferred alternative was the Modified Low Fluctuating Flow Alternative, the recreation chapter states that campsites average 1.0 per mile overall and that the Deer Creek reach has more sites per mile than any other reach at 2.3. On the accompanying bar chart of average campsites per mile by reach type for 1973, 1983, and 1991, what exact average campsites-per-mile value is shown for the Deer Creek reach in 1983?
+In the 1995 final environmental impact statement on the operation of Glen Canyon Dam whose preferred alternative was the Modified Low Fluctuating Flow Alternative, the text reports that campsites average 1.0 per mile overall and that Deer Creek has more sites per mile than any other reach at 2.3. What exact average campsites-per-mile value does the figure those sentences cite show for the Deer Creek reach in 1983?
 
 ---
 
@@ -24,20 +24,20 @@ In the Bureau of Reclamation's 1995 final environmental impact statement on the 
 
 **Step 1 - Search:** `"Operation of Glen Canyon Dam" "Final Environmental Impact Statement" 1995 "Modified Low Fluctuating Flow"`  
 **Step 1 - Fetch:** https://en.wikipedia.org/wiki/Glen_Canyon_Dam - Environmental issues section cites the 1995 federal operations EIS. Document ID only; no preferred-alternative name and no campsites-per-mile chart values.  
-**Step 1 - Verify:** Right FEIS family.  
-**Step 1 - Filter:** Stay on that FEIS's recreation / camping-beach material.
+**Step 1 - Verify:** Right FEIS family (prompt does not name the lead agency).  
+**Step 1 - Filter:** Identify Reclamation as author; stay on camping-beach / campsites-per-mile material.
 
 **Step 2 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - Reclamation's chapter-by-chapter host for the March 1995 *Operation of Glen Canyon Dam* Final EIS. Links Cover/Summary and Chapter 3.  
-**Step 2 - Verify:** Lead-agency copy.  
+**Step 2 - Verify:** Lead-agency copy (prompt never said "Bureau of Reclamation" or "recreation chapter").  
 **Step 2 - Filter:** Pull PDFs from this index.
 
 **Step 3 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Cover/Summary. Preferred alternative is the **Modified Low Fluctuating Flow Alternative**.  
 **Step 3 - Verify:** Matches the prompt's MLFF constraint.  
 **Step 3 - Filter:** Correct FEIS / correct preferred alternative before Chapter 3.
 
-**Step 4 - Fetch (twins):** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - Chapter 3, printed page **157**. Selectable prose: campsites average **1.0** per mile; critical **0.7** / noncritical **1.1**; Deer Creek reach **2.3** sites per mile; callout to figure III-38.  
+**Step 4 - Fetch (twins):** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - Chapter 3, printed page **157**. Selectable prose: campsites average **1.0** per mile; critical **0.7** / noncritical **1.1**; Deer Creek reach **2.3** sites per mile; callout to **figure III-38** (the figure the prompt requires the solver to identify).  
 **Step 4 - Verify:** Those are the prompt's twin figures - the 1991-era narrative values, not the 1983 Deer Creek bar.  
-**Step 4 - Filter:** Reject **2.3** and **1.0** as the 1983 Deer Creek chart value.
+**Step 4 - Filter:** Reject **2.3** and **1.0** as the 1983 Deer Creek chart value. Do not treat the prose callout as naming the answer year.
 
 **Step 5 - Fetch (answer):** same Chapter 3 PDF, printed page **158** (Chapter PDF page **93**) - **Figure III-38**, "Number of campsites per mile by type of reach, 1973, 1983, and 1991" (modified from Kearsley and Warren, 1993). Full page is a zero-text raster scan. Deer Creek (stippled) bars: **1973 = 2.2**; **1983 = 3.6**; **1991 = 2.3**. Footnote: *1983 does not include "small" camps.  
 **Step 5 - Verify:** 1983 Deer Creek bar label is **3.6**.  
@@ -77,3 +77,4 @@ The model answered **3.0**, after browsing the usbr.gov Chapter 3 FEIS and namin
 - [x] GT ↔ Verification Sources URL parity  
 - [x] No em dashes  
 - [x] Distinct from `18%` / `239` / `47%` stumps from the same chapter  
+- [x] Revised vs review: dropped agency / chapter / chart-year spoon-feeding; figure ID comes from prose callout  
