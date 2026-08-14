@@ -51,7 +51,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Verification Sources
 
-1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam - 1995 operations FEIS exists.  
+1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam - exact clues: body text "EIS completed March 21, 1995"; References entry *Operation of Glen Canyon Dam... final environmental impact statement* (1995, U.S. Bureau of Reclamation); External links "1995 Glen Canyon EIS" to the usbr.gov chapter index.  
 2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - official FEIS chapter index.  
 3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Modified Low Fluctuating Flow preferred alternative.  
 4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - printed p.156 twin "nearly 50 percent"; Figure III-36 Non-Critical **Other = 27%**.  
@@ -68,6 +68,7 @@ The model answered **7%**, citing usbr.gov Chapter 3 and even the camp count **(
 ## Checklist
 
 - [x] One atomic answer (`27%`)  
+- [x] Prompt word count 70-150 (85)  
 - [x] Timeless (1995 FEIS)  
 - [x] No website names in prompt  
 - [x] Official usbr.gov host  
