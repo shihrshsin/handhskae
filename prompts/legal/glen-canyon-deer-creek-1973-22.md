@@ -7,9 +7,9 @@
 
 ---
 
-## Prompt (74 words)
+## Prompt (92 words)
 
-In the 1995 final environmental impact statement on the operation of Glen Canyon Dam whose preferred alternative was the Modified Low Fluctuating Flow Alternative, the text reports that campsites average 1.0 per mile overall and that Deer Creek has more sites per mile than any other reach at 2.3. Setting aside those 1991-era narrative figures, what exact average campsites-per-mile value does the figure those sentences cite show for the Deer Creek reach in 1973?
+In the 1995 final environmental impact statement on the operation of Glen Canyon Dam whose preferred alternative was the Modified Low Fluctuating Flow Alternative, the text reports that campsites average 1.0 per mile overall and that Deer Creek has more sites per mile than any other reach at 2.3. Setting aside those 1991-era narrative figures, turn to the campsites-per-mile comparison figure those sentences cite for the river corridor. What exact average campsites-per-mile value does that figure show for the Deer Creek reach in 1973? Report the printed chart value only.
 
 ---
 
