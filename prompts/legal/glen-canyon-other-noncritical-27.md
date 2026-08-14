@@ -27,22 +27,27 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 **Step 1 - Verify:** The page names the **1995** *Operation of Glen Canyon Dam* Final EIS and the Reclamation host (prompt does not name the lead agency).  
 **Step 1 - Filter:** Identify Reclamation as author; stay on campsite-degradation material.
 
+**Step 2 - Search:** From that Wikipedia page, open the External links entry **"1995 Glen Canyon EIS"** (same URL as the References host path under usbr.gov `/uc/envdocs/eis/gc/`).  
 **Step 2 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - Reclamation's chapter-by-chapter host for the March 1995 *Operation of Glen Canyon Dam* Final EIS. Links Cover/Summary and Chapter 3.  
 **Step 2 - Verify:** Lead-agency copy (prompt never said "Bureau of Reclamation" or "recreation chapter").  
 **Step 2 - Filter:** Pull PDFs from this index.
 
+**Step 3 - Search:** On the FEIS index page, open the linked **"Cover Sheet, Table Of Contents, Etc."** PDF (`Cov-con/cov-con.pdf`).  
 **Step 3 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Cover/Summary. Preferred alternative is the **Modified Low Fluctuating Flow Alternative**.  
 **Step 3 - Verify:** Matches the prompt's MLFF constraint.  
 **Step 3 - Filter:** Correct FEIS / correct preferred alternative before Chapter 3.
 
-**Step 4 - Fetch (twin):** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - Chapter 3, printed page **156**. Selectable prose: encroachment accounted for nearly **50** percent of the campsite degradation in wider (noncritical) reaches (**figure III-36**).  
+**Step 4 - Search:** Return to the FEIS index and open the linked **"Chapter 3"** PDF; in-document text search for `nearly 50 percent` / `noncritical` / `figure III-36`.  
+**Step 4 - Fetch (twin):** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - Chapter 3, printed page **156**. Selectable prose: encroachment accounted for nearly **50** percent of the campsite degradation in wider (noncritical) reaches (**figure III-36**); also, in narrow (critical) reaches, erosion was the primary cause of campsite degradation.  
 **Step 4 - Verify:** Narrative twin is "nearly 50 percent"; figure callout is what the prompt requires the solver to identify.  
 **Step 4 - Filter:** Reject **50%** / "nearly 50 percent" as the Non-Critical **Other** slice. Stay off the Critical Reaches pie (Critical Other is **7%**).
 
-**Step 5 - Fetch (answer):** same Chapter 3 PDF, printed page **156** - **Figure III-36**, "Number of camps degraded by reach type and type of degradation." Two raster pies. Non-Critical Reaches: Eroded **47% (91)**; Overgrown **4% (8)**; **Other 27% (52)**; Eroded/Overgrown **22% (44)**. Critical: Eroded **71% (29)**; Overgrown **15% (6)**; Other **7% (3)**; Eroded/Overgrown **7% (3)**. Pie numerals are image-only (no Non-Critical Other `27%` in the Chapter 3 text layer).  
+**Step 5 - Search:** Same Chapter 3 PDF, stay on printed page **156** and read the raster **Figure III-36** pies called out by that prose (no new URL; image-only labels).  
+**Step 5 - Fetch (answer):** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - printed page **156** - **Figure III-36**, "Number of camps degraded by reach type and type of degradation." Two raster pies. Non-Critical Reaches: Eroded **47% (91)**; Overgrown **4% (8)**; **Other 27% (52)**; Eroded/Overgrown **22% (44)**. Critical: Eroded **71% (29)**; Overgrown **15% (6)**; Other **7% (3)**; Eroded/Overgrown **7% (3)**. Pie numerals are image-only (no Non-Critical Other `27%` in the Chapter 3 text layer).  
 **Step 5 - Verify:** Non-Critical **Other** slice is **27%**.  
-**Step 5 - Filter:** Lock **27%**. Dump **50%**, Non-Critical **47% / 22% / 4%**, and Critical Other **7%**.
+**Step 5 - Filter:** Lock **27%**. Dump **50%**, Non-Critical **47% / 22% / 4%**, and Critical Other **7%**. Do not confuse **Other 27%** with **Eroded/Overgrown 22%**.
 
+**Step 6 - Search:** `"Operation of Glen Canyon Dam" 1995 EIS filetype:pdf` / riversimulator LTEP mirror of the bound FEIS, then text-search `nearly 50 percent` and `Other`.  
 **Step 6 - Fetch (mirror check):** http://www.riversimulator.org/Resources/USBR/LTEP/1995EIS.pdf - full-bound FEIS. Text search finds the "nearly 50 percent" line and does not surface Figure III-36's Non-Critical **Other 27%** as a recreation pie label (pie is raster).  
 **Step 6 - Verify:** Answer is chart-image-only; twin is what search surfaces next to the figure callout.  
 **Step 6 - Filter:** Keep **27%**.
