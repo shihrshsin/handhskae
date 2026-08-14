@@ -65,4 +65,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **93** from a sambuz.com National Park Service Colorado River Management Plan PowerPoint, not from the FEIS Table III-13 totals row. On the lead-agency scanned table the Medium totals cell is **102 (10)**; excluding the parenthetical low-water-only count leaves **102**. The model never used the official FEIS distribution table and accepted a secondary NPS slide numeral, so it missed the FEIS Medium totals value.

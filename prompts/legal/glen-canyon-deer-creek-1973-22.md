@@ -65,4 +65,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model reached the correct lead-agency Chapter 3 PDF and named Figure III-38, but reported **1.5** campsites per mile for Deer Creek in 1973. On the official scanned figure the Deer Creek (stippled) **1973** bar is labeled **2.2**; **2.3** is the 1991 Deer Creek bar (also stated in the adjacent prose), and **3.6** is 1983. The answer **1.5** does not match any printed Deer Creek year label on Figure III-38. The model treated a misread or invented chart value as the 1973 Deer Creek figure while citing the right PDF, so it failed the figure-label read.

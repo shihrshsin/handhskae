@@ -66,4 +66,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **64 sites**. That numeral is the Chapter 4 prose **percentage** for fair-to-good mooring under fluctuating-flow alternatives (**about 64 percent**), not a site count. Figure III-39 on the recreation-chapter chart prints Fluctuating Fair/Good as **60% (76)**; the parenthetical **76** is the site count the prompt asks for. The model stayed on the searchable Ch4 percentage distractor (and the FEIS index) and never read the Ch3 bar-chart site-count label, so it converted **64%** into a false **64 sites** answer.

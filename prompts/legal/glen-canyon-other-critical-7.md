@@ -65,4 +65,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **4%** from a secondary academia.edu campsite paper that re-bins Critical Reaches as Eroded **71%**, Eroded/Overgrown **23%**, and Other **4%**. That breakdown is not the FEIS Figure III-36 Critical pie. On the lead-agency scanned figure the Critical **Other** slice is printed **7% (3)**; a separate Critical **Eroded/Overgrown** slice is also labeled **7% (3)**. The model never opened the official FEIS figure labels and treated a later secondary re-labeling as authoritative, so it missed the FEIS Critical Other value.
