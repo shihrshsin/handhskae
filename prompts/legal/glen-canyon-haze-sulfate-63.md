@@ -65,4 +65,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **21%** from an EPA NEPIS technical background document for the Grand Canyon Visibility Transport Commission (*Grand Canyon Haze: its Magnitude, Variability, Composition and Sources*), not from the FEIS Figure III-34 haze pie. On the lead-agency scanned figure the **Sulfate Fine Mass** slice is printed **63%**; Coarse Mass is **20%** and Other Fine Mass (Organics) is **17%**. The searchable FEIS prose only gives the **50-percent increase** summer-sulfate distractor. The model never read the official FEIS pie labels and treated a secondary haze paper numeral as authoritative, so it missed the FEIS Sulfate Fine Mass value.
