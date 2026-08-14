@@ -7,7 +7,7 @@
 
 ---
 
-## Prompt (78 words)
+## Prompt (81 words)
 
 In the 1995 final environmental impact statement on the operation of Glen Canyon Dam whose preferred alternative was the Modified Low Fluctuating Flow Alternative, the recreation analysis cites a 1975 inventory of about 333 campsites and later states that suitable camping beaches above the new high-water zone had declined to 226 sites. On the reach-by-reach distribution table of camping beaches by size class, excluding parenthetical low-water-only counts, what number of Medium camping beaches does that table report in its totals row?
 
