@@ -23,8 +23,8 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 ## Golden Trajectory
 
 **Step 1 - Search:** `"Operation of Glen Canyon Dam" "Final Environmental Impact Statement" 1995 "Modified Low Fluctuating Flow"`  
-**Step 1 - Fetch:** https://en.wikipedia.org/wiki/Glen_Canyon_Dam - Environmental issues section cites the 1995 federal operations EIS. Document ID only; no preferred-alternative name and no pie percentages.  
-**Step 1 - Verify:** Right FEIS family (prompt does not name the lead agency).  
+**Step 1 - Fetch:** https://en.wikipedia.org/wiki/Glen_Canyon_Dam - Exact on-page clues (not a paraphrase): (a) body text: *"The EIS completed March 21, 1995 cemented some restrictions on dam operations..."*; (b) References footnote for that EIS discussion (cite note for the 1995 Reclamation book): *U.S. Bureau of Reclamation (1995). Operation of Glen Canyon Dam: Colorado River Storage Project, Arizona: final environmental impact statement*; (c) External links entry titled **"1995 Glen Canyon EIS"** pointing to https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html. Document ID / host only; no preferred-alternative name and no pie percentages.  
+**Step 1 - Verify:** The page names the **1995** *Operation of Glen Canyon Dam* Final EIS and the Reclamation host (prompt does not name the lead agency).  
 **Step 1 - Filter:** Identify Reclamation as author; stay on campsite-degradation material.
 
 **Step 2 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - Reclamation's chapter-by-chapter host for the March 1995 *Operation of Glen Canyon Dam* Final EIS. Links Cover/Summary and Chapter 3.  
