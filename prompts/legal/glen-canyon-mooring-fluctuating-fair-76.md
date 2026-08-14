@@ -7,7 +7,7 @@
 
 ---
 
-## Prompt (72 words)
+## Prompt (75 words)
 
 In the 1995 final environmental impact statement on the operation of Glen Canyon Dam whose preferred alternative was the Modified Low Fluctuating Flow Alternative, later analysis states that mooring would be fair to good at 92 percent of camping beaches under steady flow alternatives and about 64 percent under fluctuating-flow alternatives. On the mooring-quality bar chart comparing constant high, constant low, and fluctuating releases, what exact number of sites is labeled Fair/Good under fluctuating releases?
 
