@@ -1,10 +1,9 @@
-# Legal - Glen Canyon Dam FEIS / OCR Draft composition pie Ammonium Sulfate slice
+# Legal - Glen Canyon Dam 1995 FEIS Fig. III-33 Ammonium Sulfate slice
 
 **Answer:** `38%`  
-**Highlightable?** Yes, on Internet Archive OCR Draft EIS PDF (text objects `Ammonium`, `Sulfate`, `(38%)`). Not highlightable on usbr.gov FEIS Chapter 3 pie page (zero-text scan).  
 **Searchable distractors:** `50-percent increase` / `50%` (same-chapter body text on summer sulfate levels, Malm 1989); visibility mile figures (100 / 158 / 240).  
-**Secondary traps:** `23%` (EPA VIEW / Western Fine Particulate Network: fine soil share of fine mass at Grand Canyon, same passage that correctly states ammonium sulfate **38%**; also Malm/Sisler-style Colorado Plateau summaries that put sulfates near **~23%** of total extinction); haze-pie Other Fine Mass **17%** / Coarse Mass **20%**; Remaining **36%**; Soil **15%** (FEIS pie); Soot **9%**; `40 to 60 percent` NPS Colorado Plateau sulfate haze summaries; Sulfate Fine Mass **63%** (printed on FEIS haze pie; not in IA OCR).  
-**Doc:** 1995 Glen Canyon Dam operations FEIS Chapter 3 air-quality block. Highlightable verification host: Internet Archive OCR of the 1993 Draft EIS, composition pie **Figure III-31** (= FEIS **Figure III-33**).
+**Secondary traps:** `23%` (EPA VIEW / Western Fine Particulate Network fine-soil share of fine mass at Grand Canyon; also Malm/Sisler-style Colorado Plateau summaries that put sulfates near ~23% of total extinction); Fig. III-34 Other Fine Mass **17%** / Coarse Mass **20%** / Sulfate Fine Mass **63%** (haze pie, not composition); Remaining **36%**; Soil **15%**; Soot **9%**; `40 to 60 percent` NPS Colorado Plateau sulfate haze summaries.  
+**Doc:** Same 1995 Glen Canyon Dam operations FEIS Chapter 3 air-quality block - Figure III-33 composition pie, Ammonium Sulfate slice (image-only; not in PDF text layer).
 
 ---
 
@@ -30,7 +29,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 **Step 2 - Search:** From that Wikipedia page, open External links **"1995 Glen Canyon EIS"**.  
 **Step 2 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - Official FEIS chapter index.  
 **Step 2 - Verify:** Lead-agency copy.  
-**Step 2 - Filter:** Use only PDFs linked from this index for FEIS confirmation.
+**Step 2 - Filter:** Use only PDFs linked from this index.
 
 **Step 3 - Search:** On the FEIS index, open **"Cover Sheet, Table Of Contents, Etc."** (`cov-con.pdf`).  
 **Step 3 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Preferred alternative is the **Modified Low Fluctuating Flow Alternative**.  
@@ -38,19 +37,14 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 **Step 3 - Filter:** Confirm correct FEIS before Chapter 3.
 
 **Step 4 - Search:** Return to FEIS index, open **"Chapter 3"** PDF; text-search `50-percent increase` / `summer sulfate` / `haze` / `fine particles`.  
-**Step 4 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - printed p.**148**. Selectable prose: **"50-percent increase in summer sulfate levels measured at the canyon (Malm, 1989)"**. Prose does not state the composition-pie Ammonium Sulfate percentage. Printed p.**147** (Figures III-33 / III-34) is a zero-text scan on the lead-agency host (no highlightable pie labels).  
-**Step 4 - Verify:** Distractor confirmed; Ammonium Sulfate share is not highlightable on usbr.gov Chapter 3.  
-**Step 4 - Filter:** Reject **50%**. Need an OCR host of the same pie labels.
+**Step 4 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - printed p.**148**. Selectable prose: **"50-percent increase in summer sulfate levels measured at the canyon (Malm, 1989)"**. Prose does not state the composition-pie Ammonium Sulfate percentage.  
+**Step 4 - Verify:** Distractor confirmed; exact Ammonium Sulfate share is not in the text layer.  
+**Step 4 - Filter:** Reject **50%**. Proceed to the air-quality composition pie on the preceding scanned page.
 
-**Step 5 - Search:** `"Operation of Glen Canyon Dam" "draft environmental impact statement" site:archive.org` / Internet Archive item `operationofglenc001993`.  
-**Step 5 - Fetch:** https://archive.org/details/operationofglenc001993 - Digitized 1993 Draft EIS (OCR text layer). Same air-quality pies; draft numbering: composition pie = **Figure III-31** (final FEIS renumbers it **III-33**); haze pie = draft **III-32** (final **III-34**). Draft also lists **Modified Low Fluctuating Flow Alternative (Preferred Alternative)**.  
-**Step 5 - Verify:** OCR host of the same Reclamation Glen Canyon Dam operations EIS family.  
-**Step 5 - Filter:** Open the full PDF / OCR text; go to air-quality printed p.**137**.
-
-**Step 6 - Search:** In https://archive.org/download/operationofglenc001993/operationofglenc001993.pdf (PDF p.**165** / printed p.**137**), text-select / search `Ammonium` / `Sulfate` / `Remaining`.  
-**Step 6 - Fetch:** Selectable OCR text objects on the composition pie (**Figure III-31**): **Ammonium**; **Sulfate**; **(38%)**; also Remaining **(36%)**; Soil **(15%)**; Soot **(9%)**. Caption: "Various types of fine particles measured at Grand Canyon, 1982-83." Adjacent haze pie (next page, draft Fig. III-32) has selectable Other Fine Mass **(17%)** and Coarse Mass **(20%)** and is not the composition pie.  
-**Step 6 - Verify:** Highlightable `(38%)` beside Ammonium Sulfate matches the FEIS Figure III-33 Ammonium Sulfate slice.  
-**Step 6 - Filter:** Record **38%**. Discard **50%**, secondary **23%**, haze-pie **17%** / **20%**, and other composition slices **36%** / **15%** / **9%**.
+**Step 5 - Search:** Same Chapter 3 PDF, turn to printed p.**147** (zero-text scan) and view **Figure III-33**.  
+**Step 5 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - printed p.**147**. Figure III-33, "Various types of fine particles measured at Grand Canyon, 1982-83." Printed labels: **Ammonium Sulfate 38%**; Remaining **36%**; Soil **15%**; Soot **9%**. Figure III-34 on the same page is the haze pie (Sulfate Fine Mass **63%**; Coarse Mass **20%**; Other Fine Mass **17%**) and is not the composition pie. Labels are on the lead-agency page image only (not in the PDF text layer).  
+**Step 5 - Verify:** Printed Ammonium Sulfate label on the composition pie is **38%**.  
+**Step 5 - Filter:** Record **38%**. Discard **50%**, secondary **23%**, haze-pie **17%** / **20%** / **63%**, and other III-33 slices **36%** / **15%** / **9%**.
 
 ---
 
@@ -59,12 +53,10 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam - exact March 21, 1995 EIS prose; 1995 FEIS reference; External links "1995 Glen Canyon EIS"  
 2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - official FEIS chapter index  
 3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Modified Low Fluctuating Flow preferred alternative  
-4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - p.148 distractor; p.147 pie page is zero-text scan  
-5. https://archive.org/details/operationofglenc001993 - OCR'd 1993 Draft EIS (highlightable figure labels)  
-6. https://archive.org/download/operationofglenc001993/operationofglenc001993.pdf - PDF p.165 / printed p.137: selectable **Ammonium Sulfate (38%)** on draft Fig. III-31 (= FEIS Fig. III-33)  
+4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - p.148 distractor; p.147 Fig. III-33 **Ammonium Sulfate = 38%**  
 
 ---
 
 ## Failure justification
 
-The model answered **23%**. That numeral is a common Grand Canyon fine-particle trap outside the FEIS composition pie: EPA VIEW / Western Fine Particulate Network text states that ammonium sulfate accounted for **38%** of fine mass while **fine soil contributed 23%**, and later Colorado Plateau visibility summaries often put sulfates near **~23%** of total extinction. The prompt asked for the EIS fine-particles composition pie Ammonium Sulfate slice. On the Internet Archive OCR Draft EIS (PDF p.165 / printed p.137, draft Fig. III-31 = FEIS Fig. III-33), the highlightable labels are Ammonium Sulfate **(38%)**, Remaining **(36%)**, Soil **(15%)**, and Soot **(9%)**. The model never read those selectable pie labels and reported a secondary-literature **23%** instead of the EIS pie value **38%**.
+The model answered **23%**. That numeral is a common Grand Canyon fine-particle trap outside the FEIS composition pie: EPA VIEW / Western Fine Particulate Network text states that ammonium sulfate accounted for **38%** of fine mass while **fine soil contributed 23%**, and later Colorado Plateau visibility summaries often put sulfates near **~23%** of total extinction. On the lead-agency FEIS Figure III-33 composition pie (Chapter 3, printed p.147), the printed Ammonium Sulfate slice is **38%**. The model never read the official FEIS pie labels and treated a secondary haze / soil numeral as authoritative, so it missed the FEIS Ammonium Sulfate value.
