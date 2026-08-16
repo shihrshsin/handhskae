@@ -1,6 +1,7 @@
 # Legal - Glen Canyon Dam 1995 FEIS Fig. III-33 Remaining slice
 
 **Answer:** `36%`  
+**Status:** Paused — returning to selectable-text stumps per direction.  
 **Searchable distractors:** `50-percent increase` / `50%` (same-chapter body text on summer sulfate levels, Malm 1989); visibility mile figures (100 / 158 / 240).  
 **Secondary traps:** Ammonium Sulfate **38%**; Soil **15%**; Soot **9%**; Fig. III-34 Other Fine Mass **17%** / Coarse Mass **20%** / Sulfate Fine Mass **63%** (haze pie, not composition); nearby recreation size-class prose **36 percent** (small/medium sites change size class when releases drop to 15,000 cfs or less — different chapter topic).  
 **Doc:** Same 1995 Glen Canyon Dam operations FEIS Chapter 3 air-quality block - Figure III-33 composition pie, Remaining slice (image-only; not in PDF text layer).
