@@ -1,6 +1,7 @@
 # Legal - Glen Canyon Dam 1995 FEIS Deer Creek reach 2.3 sites per mile
 
 **Answer:** `2.3`  
+**Status:** Model solved (not a stump).  
 **Highlightable?** Yes. On usbr.gov Chapter 3 PDF page **92** (printed p.**157**), selectable text objects include `Deer`, `Creek`, and `2.3` (sites per mile).  
 **Searchable distractors:** corridor averages in the same paragraph: **1.0** / **0.7** / **1.1** per mile; large-campsite densities **0.20** / **0.51** per mile; nearby inundation prose **35%** / size-class **36%**.  
 **Secondary traps:** Figure III-38 Deer Creek chart values **2.2** (1973) and **3.6** (1983) from prior image-only stumps (not this sites-per-mile prose).  
@@ -60,4 +61,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **2.3** correctly. The sites-per-mile prose is selectable on usbr.gov Chapter 3 and was recovered from the Deer Creek sentence, so this item does not stump. Abandoned as a live stump candidate.
