@@ -1,3 +1,5 @@
+> **Not a stump:** Model solved (`1252000`). Do not use.
+
 # Recreation - Glen Canyon Dam 1995 FEIS Table III-16 Glen Canyon anglers direct expenditures
 
 **Answer:** `1252000`  
