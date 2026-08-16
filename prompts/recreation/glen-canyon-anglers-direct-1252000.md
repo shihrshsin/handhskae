@@ -134,7 +134,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 | Glen Canyon (scenic) rafting | 32,816 | 72 | (blank/missing in text layer) | (blank/missing) | NO |
 | **Glen Canyon anglers** | 10,270 | 122 | **1,252,000** | `,833,000` (broken OCR; do not use) | **YES — direct column only** |
 | Private WW in Grand Canyon | 2,926 | 255 | 747,000 | 124,000 | NO |
-| Commercial WW in Grand Canyon | 13,478 | 711 | 9,581,000 | 15,420,000 | NO — set aside |
+| Commercial WW in Grand Canyon | 13,478 | 71 | 9,581,000 | 15,420,000 | NO — set aside |
 | Commercial WW below Diamond Creek | 1,504 | 299 | 450,000 | 735,000 | NO |
 | Private WW below Diamond Creek | 467 | 103 | 48,000 | 75,000 | NO |
 | Total | 61,461 | — | 14,452,000 | 23,115,000 | NO — set aside total |
