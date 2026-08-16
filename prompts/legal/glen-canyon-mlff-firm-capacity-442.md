@@ -53,16 +53,18 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 ### Step 2 — Open the lead-agency FEIS chapter index
 
 **What to do:**  
-1. On the Wikipedia page, click External links **"1995 Glen Canyon EIS"**.  
-2. Land on the official Bureau of Reclamation FEIS chapter index.  
-3. Note the separate PDF links for cover/contents, Chapter 3, and Chapter 4.
+1. From the Wikipedia page in Step 1, scroll to **External links**.  
+2. Click the link labeled **"1995 Glen Canyon EIS"** (navigates to the usbr.gov FEIS chapter index).  
+3. Alternate search query if the External link is missing:  
+   `site:usbr.gov "Operation of Glen Canyon Dam" "Final Environmental Impact Statement" gcdOpsFEIS`  
+4. On the index page, note the separate PDF links for cover/contents, Chapter 3, and Chapter 4.
 
 **Where to find it:**  
-- https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html  
-- Links to use next:  
-  - **Cover Sheet, Table Of Contents, Etc.** → preferred-alternative confirmation  
-  - **Chapter 4** → Hydropower Environmental Consequences (the answer page)  
-  - **Chapter 3** → Affected Environment only (wrong chapter for this ask)
+- Navigated URL: https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html  
+- Index link labels to use next:  
+  - **"Cover Sheet, Table Of Contents, Etc."** → preferred-alternative confirmation  
+  - **"Chapter 4"** → Hydropower Environmental Consequences (the answer page)  
+  - **"Chapter 3"** → Affected Environment only (wrong chapter for this ask)
 
 **Verify:** Lead-agency `usbr.gov` host for the March 1995 FEIS.  
 **Filter:** Use only PDFs linked from this index. The asked figure is in **Chapter 4**, not Chapter 3.
@@ -72,13 +74,18 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 ### Step 3 — Confirm the preferred alternative (MLFF)
 
 **What to do:**  
-1. From the FEIS index, open **"Cover Sheet, Table Of Contents, Etc."**  
-2. Search the PDF for `preferred alternative` and `Modified Low Fluctuating`.  
-3. Confirm that the preferred alternative for the final EIS is the **Modified Low Fluctuating Flow Alternative**.
+1. From the FEIS index page in Step 2, click the link labeled **"Cover Sheet, Table Of Contents, Etc."** (opens `cov-con.pdf`).  
+2. Go to **PDF page 4** (the cover-sheet abstract page titled *Final Environmental Impact Statement / Operation of Glen Canyon Dam*).  
+3. In-PDF search queries (Ctrl-F / Find), in order:  
+   - `preferred alternative`  
+   - `Modified Low Fluctuating`  
+4. In the main cover-sheet abstract paragraph (the block beginning “This final environmental impact statement (EIS) analyzes the impacts of operations…”), read the closing preferred-alternative sentence.
 
 **Where to find it:**  
-- https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf  
-- Cover / summary prose: preferred alternative = **Modified Low Fluctuating Flow Alternative**
+- Navigated URL: https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf  
+- **PDF page 4**, cover-sheet abstract paragraph  
+- Exact selectable sentence:  
+  *“The preferred alternative is the Modified Low Fluctuating Flow Alternative.”*
 
 **Verify:** Matches the prompt’s MLFF constraint. The answer must come from the MLFF hydropower consequences paragraph, not from Interim Low Fluctuating Flow (the named distractor) and not from steady-flow alternatives.  
 **Filter:** Correct FEIS confirmed. Proceed to Chapter 4 Environmental Consequences → Hydropower → firm power marketing. Do **not** answer from Chapter 3 Affected Environment.
@@ -88,19 +95,22 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 ### Step 4 — Find the searchable Interim Low Fluctuating Flow winter distractor in Chapter 4
 
 **What to do:**  
-1. From the FEIS index, open **Chapter 4**.  
-2. Ctrl-F / Find these strings in order:  
+1. Return to the FEIS index page from Step 2: https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html  
+2. Click the index link labeled **"Chapter 4"** (opens `Chap4.pdf`).  
+3. Alternate search query if navigating from scratch:  
+   `site:usbr.gov Chap4.pdf "Operation of Glen Canyon Dam" hydropower "marketable resource"`  
+4. In-PDF search queries (Ctrl-F / Find), in order:  
    - `372 MW`  
+   - `Interim Low Fluctuating`  
    - `marketable resource`  
    - `firm power marketing`  
-   - `Interim Low Fluctuating`  
-3. Open the Hydropower consequences page that contains both the Interim Low and Modified Low Fluctuating Flow firm-capacity paragraphs.
+5. Open the hit on **PDF page 137** / printed footer **p.312** (Chapter IV Environmental Consequences — Hydropower).
 
 **Where to find it:**  
-- https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf  
-- **PDF page 137** / printed footer **p.312** (Chapter IV Environmental Consequences — Hydropower)  
-- Selectable prose under **Interim Low Fluctuating Flow Alternative**:  
-  marketable resource available for firm power marketing would decrease by **372 MW** of capacity in winter and **439 MW** in summer compared to the No Action Alternative.
+- Navigated URL: https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf  
+- **PDF page 137** / printed **p.312**  
+- Heading: **Interim Low Fluctuating Flow Alternative**  
+- Selectable prose: marketable resource available for firm power marketing would decrease by **372 MW** of capacity in winter and **439 MW** in summer compared to the No Action Alternative.
 
 **Verify:**  
 - **372** is the Interim Low Fluctuating Flow *winter* decrease named in the prompt.  
@@ -117,12 +127,16 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 ### Step 5 — Read the MLFF winter marketable firm-capacity reduction (answer cell)
 
 **What to do:**  
-1. On the same Chapter 4 page (**PDF p.137 / printed p.312**), open the heading **Modified Low Fluctuating Flow Alternative**.  
-2. Read only the firm power marketing sentence for that alternative:  
+1. Remain on the same Chapter 4 PDF opened in Step 4 (`Chap4.pdf`), same **PDF page 137** / printed **p.312**.  
+2. In-PDF search queries (Ctrl-F / Find), in order:  
+   - `Modified Low Fluctuating Flow Alternative`  
+   - `442 MW`  
+   - `reduced by 442`  
+3. Under the heading **Modified Low Fluctuating Flow Alternative**, read only the firm power marketing sentence:  
    *“The marketable resource available for firm power marketing under this alternative would be reduced by 442 MW of capacity in winter and 463 MW in summer compared to no action.”*  
-3. Take the **winter** capacity reduction compared to no action: **442**.  
-4. Highlight/select that winter megawatt figure (real PDF text object).  
-5. Confirm you did **not** take:  
+4. Take the **winter** capacity reduction compared to no action: **442**.  
+5. Highlight/select that winter megawatt figure (real PDF text object).  
+6. Confirm you did **not** take:  
    - summer **463**  
    - Interim winter **372**  
    - Interim summer **439**  
@@ -131,8 +145,10 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
    - any invented figure such as **456**
 
 **Where to find it:**  
-- Same PDF: https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf  
-- **PDF page 137** / printed **p.312**
+- Same navigated URL: https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf  
+- **PDF page 137** / printed **p.312**  
+- Heading: **Modified Low Fluctuating Flow Alternative**  
+- Answer clause: **reduced by 442 MW of capacity in winter**
 
 **Exact selectable comparisons on / near that page:**
 
