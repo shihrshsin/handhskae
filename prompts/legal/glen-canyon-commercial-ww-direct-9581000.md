@@ -2,7 +2,8 @@
 
 **Answer:** `9581000`  
 **Highlightable?** Yes. On usbr.gov Chapter 3 PDF page **99** (printed p.**164**), Table III-16 text objects include `9,581,000` in the total-direct-expenditures column for commercial white-water boating in Grand Canyon.  
-**Searchable distractors:** prose **"approximately $23 million"** / table total local activity **23,115,000**; same-row local economic activity **15,420,000** (prior stump answer); table total direct expenditures **14,452,000**.  
+**Observed model failure:** Answered `450000` / `450,000` (adjacent Table III-16 row: commercial white-water boating **below Diamond Creek** total direct expenditures).  
+**Searchable distractors:** prose **"approximately $23 million"** / table total local activity **23,115,000**; same-row local economic activity **15,420,000**; table total direct expenditures **14,452,000**.  
 **Secondary traps:** below-Diamond Creek commercial direct expenditures **450,000** / local activity **735,000**; trips **13,478**; private WW in Grand Canyon direct **747,000**.  
 **Doc:** 1995 Glen Canyon Dam operations FEIS Chapter 3 recreation economics, Table III-16 (1991). Same table as the `15420000` stump; different column.
 
@@ -28,41 +29,56 @@ Exact on-page clues:
 (a) body text: *"The EIS completed March 21, 1995 cemented some restrictions on dam operations..."*  
 (b) References: *U.S. Bureau of Reclamation (1995). Operation of Glen Canyon Dam: Colorado River Storage Project, Arizona: final environmental impact statement*  
 (c) External links: **"1995 Glen Canyon EIS"** → https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html  
-**Step 1 - Verify:** Page names the 1995 *Operation of Glen Canyon Dam* Final EIS and Reclamation host. No Table III-16 dollar figures on Wikipedia.  
-**Step 1 - Filter:** Identify Reclamation as author. Stay on recreation / economics material.
+**Step 1 - Verify:** Page names the 1995 *Operation of Glen Canyon Dam* Final EIS and the Bureau of Reclamation host. No Table III-16 dollar figures on Wikipedia.  
+**Step 1 - Filter:** Identify Reclamation as author. Stay on that FEIS’s recreation / economics material. Skip later LTEMP EIS pages and tourism blurbs.
 
 **Step 2 - Search:** From that Wikipedia page, open External links **"1995 Glen Canyon EIS"**.  
-**Step 2 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - Official FEIS chapter index.  
-**Step 2 - Verify:** Lead-agency copy.  
+**Step 2 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html  
+Official chapter-by-chapter index for the March 1995 *Operation of Glen Canyon Dam* Final EIS. Links Cover/Summary and Chapter 3.  
+**Step 2 - Verify:** Lead-agency Reclamation copy.  
 **Step 2 - Filter:** Use only PDFs linked from this index.
 
 **Step 3 - Search:** On the FEIS index, open **"Cover Sheet, Table Of Contents, Etc."** (`cov-con.pdf`).  
-**Step 3 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Preferred alternative is the **Modified Low Fluctuating Flow Alternative**.  
-**Step 3 - Verify:** Matches MLFF constraint.  
-**Step 3 - Filter:** Confirm correct FEIS before Chapter 3.
+**Step 3 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf  
+Preferred alternative is named the **Modified Low Fluctuating Flow Alternative**.  
+**Step 3 - Verify:** Matches the prompt’s MLFF constraint.  
+**Step 3 - Filter:** Confirm correct FEIS / correct preferred alternative before opening Chapter 3.
 
-**Step 4 - Search:** Return to FEIS index, open **"Chapter 3"** PDF; text-search `23 million` / `local economic activity` / `river-based recreational users`.  
+**Step 4 - Search:** Return to FEIS index, open **"Chapter 3"** PDF. Text-search `23 million` / `local economic activity` / `river-based recreational users`.  
 **Step 4 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf — PDF p.**98** / printed p.**163**.  
-Selectable prose: river-based recreational users generated approximately **$23 million** in local economic activity in 1991.  
-**Step 4 - Verify:** Distractor total confirmed.  
-**Step 4 - Filter:** Reject approximate **23 million**. Open Table III-16.
+Selectable prose: *"In total, river-based recreational users generated approximately **$23 million** in local economic activity in 1991."*  
+**Step 4 - Verify:** That approximate **$23 million** is the prompt’s distractor total, in selectable body text. It is not a single activity-row cell.  
+**Step 4 - Filter:** Reject **23000000** / **23 million**. Continue to the table that breaks spending down by activity.
 
-**Step 5 - Search:** Same Chapter 3 PDF; locate **Table III-16**; read the row **Commercial white-water boating in Grand Canyon** and the **Total direct expenditures by nonresidents** column (not local economic activity).  
-**Step 5 - Fetch:** Same PDF, PDF p.**99** / printed p.**164**. Selectable cells on that row: trips **13,478**; direct expenditures **9,581,000**; local economic activity **15,420,000**. Adjacent below-Diamond Creek commercial row: direct **450,000**; local activity **735,000**. Table totals: direct **14,452,000**; local activity **23,115,000**.  
-**Step 5 - Verify:** Highlightable answer for Grand Canyon commercial WW **direct expenditures** is **9,581,000**.  
-**Step 5 - Filter:** Record **9581000**. Discard local-activity **15420000**, prose/total **23 million** / **23115000**, below-Diamond **450000** / **735000**, and table-total direct **14452000**.
+**Step 5 - Search:** Same Chapter 3 PDF; text-search `Table III-16` / `Commercial white-water boating` / `direct expenditures`.  
+**Step 5 - Fetch:** https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf — PDF p.**99** / printed p.**164**.  
+**Table III-16** — *"Number of nonresident trips, direct expenditures by nonresident river-based recreators, and estimated local economic activity generated in the region in 1991."*  
+Selectable cells on the usbr.gov PDF (key rows):
+
+- **Commercial white-water boating in Grand Canyon:** trips **13,478**; per-trip **71**; **direct expenditures 9,581,000**; local economic activity **15,420,000**
+- **Commercial white-water boating below Diamond Creek:** trips **1,504**; **direct expenditures 450,000**; local economic activity **735,000**
+- **Private white-water boating in Grand Canyon:** direct expenditures **747,000**; local economic activity **124,000**
+- **Total:** trips **61,461**; direct expenditures **14,452,000**; local economic activity **23,115,000**
+
+**Step 5 - Verify:**  
+- Prompt asks for **commercial white-water boating in Grand Canyon**, column **total direct expenditures by nonresidents** → **9,581,000**.  
+- Same-row local economic activity **15,420,000** is the wrong column.  
+- Adjacent commercial row **below Diamond Creek** direct expenditures **450,000** is the wrong row (observed model miss).  
+- Table total local activity **23,115,000** matches the Step 4 prose distractor.  
+- Table total direct expenditures **14,452,000** is the wrong row (totals).  
+**Step 5 - Filter:** Record **9581000**. Discard **450000**, **15420000**, **735000**, prose/total **23 million** / **23115000**, and **14452000**.
 
 ---
 
 ## Verification Sources
 
-1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam - exact March 21, 1995 EIS prose; 1995 FEIS reference; External links "1995 Glen Canyon EIS"  
-2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html - official FEIS chapter index  
-3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf - Modified Low Fluctuating Flow preferred alternative  
-4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf - PDF p.99 / printed p.164: Table III-16 selectable **9,581,000** (Grand Canyon commercial WW direct expenditures)  
+1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — exact March 21, 1995 EIS prose; 1995 FEIS reference; External links "1995 Glen Canyon EIS"  
+2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — official FEIS chapter index  
+3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf — Modified Low Fluctuating Flow preferred alternative  
+4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch3/chap3-1.pdf — PDF p.98 / printed p.163: selectable prose **"approximately $23 million"**; PDF p.99 / printed p.164: Table III-16 selectable **9,581,000** (commercial white-water boating in Grand Canyon, total direct expenditures)  
 
 ---
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **450,000**. On Table III-16 that value is real and selectable, but it is the **Total direct expenditures by nonresidents** cell for **commercial white-water boating below Diamond Creek**, not for commercial white-water boating **in Grand Canyon**. The correct Grand Canyon commercial row / direct-expenditures cell is **9,581,000**. Same-row traps on the correct activity include local economic activity **15,420,000** and trips **13,478**. The prose / table-total distractor is approximately **$23 million** / **23,115,000**. The model reached the right table and the direct-expenditures column but took the wrong commercial white-water row, so it missed **9581000**.
