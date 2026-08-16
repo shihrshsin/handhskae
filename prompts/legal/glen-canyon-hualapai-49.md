@@ -1,6 +1,7 @@
 # Legal - Glen Canyon Dam 1995 FEIS Hualapai River Runners 1987 income share
 
 **Answer:** `49%`  
+**Status:** Model solved (not a stump).  
 **Highlightable?** Yes. On usbr.gov Chapter 3 PDF page **100** (printed p.**165**), selectable text objects include `49` and `percent` in the 1987 Hualapai River Runners income sentence.  
 **Searchable distractors:** same-page **"about 33 percent"** of total **1991** income from river-based recreation; **"approximately one-fourth"** / **25%** of gross revenue from desert bighorn sheep hunt permits.  
 **Secondary traps:** Table III-16 commercial / below-Diamond dollar figures from the prior page; vague “approximately half” paraphrase of the same 49% sentence.  
@@ -60,4 +61,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Await live model response.)*
+The model answered **49%** correctly from the selectable usbr.gov Chapter 3 prose. Abandoned as a live stump candidate; returning to image-only FEIS figure answers.
