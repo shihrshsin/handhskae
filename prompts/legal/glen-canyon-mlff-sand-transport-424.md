@@ -39,7 +39,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 - External links: **"1995 Glen Canyon EIS"** → https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html
 
 **Verify:** Correct 1995 Reclamation operations FEIS family. Wikipedia has no Table IV-7 sand-transport cells (**424**, **434**, **59**).  
-**Filter:** Stay on that FEIS. Skip LTEMP / tourism pages.
+**Filter:** Stay on that FEIS. Skip LTEMP / tourism pages / National Academies *Downstream* adaptive-management secondary books. Do not answer **639** from off-FEIS sources.
 
 ---
 
