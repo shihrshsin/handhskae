@@ -2,9 +2,9 @@
 
 **Answer:** `0.30`  
 **Highlightable?** Yes. On usbr.gov Chapter 4 PDF page **102** (printed p.**277**), Table IV-16 text objects include `0.30` in the maximum-20-minute-stage-change-at-Glen-Canyon-Dam column for the **Modified low fluctuating flow** alternative.  
-**Awaiting model test:** Run the prompt below and record the miss (likely `0.10`, `0.24`, `0.50`, `0.88`, `1.5`, or `0.62`) before treating as confirmed stump.  
-**Searchable distractors:** same-row Modified Low Fluctuating Flow Lees Ferry 20-minute value **0.10** (named in the prompt); Moderate Dam **0.50**; Moderate Lees Ferry **0.24**; No Action Dam **0.88**; No Action Lees Ferry **0.62**; MLFF stage change per day **1.5**.  
-**Secondary traps:** Interim Low Dam also **0.30** (same Dam value; wrong alternative if prompt requires MLFF — still numerically identical); High Fluctuating per day **4**; No Action per day **4.5**.  
+**Observed model failure:** Answered `0.10`. That is the same-row **Lees Ferry** maximum 20-minute stage-change cell named in the prompt as the value to set aside — not the **Glen Canyon Dam** column. On Table IV-16, Modified low fluctuating flow is Lees Ferry **0.10** / Dam **0.30** / per day **1.5**.  
+**Searchable distractors:** same-row Modified Low Fluctuating Flow Lees Ferry 20-minute value **0.10** (named in the prompt; observed miss); Moderate Dam **0.50**; Moderate Lees Ferry **0.24**; No Action Dam **0.88**; No Action Lees Ferry **0.62**; MLFF stage change per day **1.5**.  
+**Secondary traps:** Interim Low Dam also **0.30** (same Dam value; wrong alternative); High Fluctuating per day **4**; No Action per day **4.5**.  
 **Doc:** 1995 Glen Canyon Dam operations FEIS Chapter IV Environmental Consequences — Recreation Table IV-16. Same table as the `0.24` stump; **Modified low fluctuating flow** row, **Glen Canyon Dam** 20-minute column.
 
 ---
@@ -141,4 +141,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Fill after model test.)* Expected miss patterns: answering **0.10** from the named Lees Ferry cell; answering **0.24** / **0.50** from the Moderate row; answering **0.88** from No Action Dam; answering **1.5** from the per-day column; answering **0.62**.
+The model answered **0.10**. That is the wrong Table IV-16 column. On usbr.gov `Chap4.pdf` PDF page **102** (printed **p.277**), under **Modified low fluctuating flow**, the maximum 20-minute stage change at **Lees Ferry** is **0.10** feet — the value the prompt names and tells the reader to set aside. The asked cell is the same row’s maximum 20-minute stage change at **Glen Canyon Dam**, which is **0.30**. Same-table traps include Moderate Lees Ferry **0.24** / Dam **0.50**, No Action Dam **0.88**, and MLFF stage change per day **1.5**. The model locked the named Lees Ferry distractor instead of the Dam column, so it missed **0.30**.
