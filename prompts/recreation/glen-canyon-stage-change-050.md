@@ -2,9 +2,9 @@
 
 **Answer:** `0.50`  
 **Highlightable?** Yes. On usbr.gov Chapter 4 PDF page **102** (printed p.**277**), Table IV-16 text objects include `0.50` in the maximum-20-minute-stage-change-at-Glen-Canyon-Dam column for the **Moderate fluctuating flow** alternative.  
-**Awaiting model test:** Run the prompt below and record the miss (likely `0.24`, `0.30`, `0.88`, `2.5`, or `0.62`) before treating as confirmed stump.  
+**Observed model failure:** Answered `0.60`. That figure is **not** any selectable cell in Table IV-16. On the correct table, Moderate Fluctuating Flow Dam 20-minute is **0.50**; named same-row Lees Ferry distractor is **0.24**; nearest similar Lees Ferry values are No Action/High **0.62** (not **0.60**).  
 **Searchable distractors:** same-row Moderate Lees Ferry 20-minute value **0.24** (named in the prompt); Modified/Interim Dam **0.30**; No Action Dam **0.88**; Moderate stage change per day **2.5**; No Action Lees Ferry **0.62**.  
-**Secondary traps:** Modified/Interim Lees Ferry **0.10**; No Action per day **4.5**; High per day **4**.  
+**Secondary traps:** Modified/Interim Lees Ferry **0.10**; No Action per day **4.5**; High per day **4**; invented/near-miss **0.60** (not on table; **0.62** is the closest Lees Ferry cell).  
 **Doc:** 1995 Glen Canyon Dam operations FEIS Chapter IV Environmental Consequences — Recreation Table IV-16. Same table as the `0.24` and `0.30` stumps; **Moderate fluctuating flow** row, **Glen Canyon Dam** 20-minute column.
 
 ---
@@ -119,8 +119,8 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 | Modified low fluctuating flow | 1.5 | 0.10 | 0.30 | NO |
 | Interim low fluctuating flow | 1.5 | 0.10 | 0.30 | NO |
 
-**Verify:** Highlightable **0.50**.  
-**Filter:** Record **0.50**. Discard **0.24**, **0.30**, **0.88**, **2.5**, **0.62**.
+**Verify:** Highlightable **0.50**. Table IV-16 selectable decimals on this page do **not** include **0.60**.  
+**Filter:** Record **0.50**. Discard **0.24**, **0.30**, **0.88**, **2.5**, **0.62**, and invented **0.60**.
 
 ---
 
@@ -135,4 +135,4 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Failure justification
 
-*(Fill after model test.)* Expected miss patterns: answering **0.24** from the named Lees Ferry cell; answering **0.30** from MLFF Dam; answering **0.88** from No Action Dam; answering **2.5** from the per-day column.
+The model answered **0.60**. That is not a selectable Table IV-16 stage-change cell. On usbr.gov `Chap4.pdf` PDF page **102** (printed **p.277**), under **Moderate fluctuating flow**, the maximum 20-minute stage change at **Glen Canyon Dam** is **0.50** feet. The prompt’s named same-row distractor is the Lees Ferry 20-minute value **0.24**. Same-table traps include Modified/Interim Dam **0.30**, No Action Dam **0.88**, Moderate per day **2.5**, and No Action/High Lees Ferry **0.62**. The table’s selectable decimal set on that page is **0.62, 0.24, 0.10, 0.88, 0.50, 0.30** — it does **not** include **0.60**. The model never locked the Moderate Fluctuating Flow / Glen Canyon Dam 20-minute cell, so it missed **0.50**.
