@@ -2,9 +2,9 @@
 
 **Answer:** `434`  
 **Highlightable?** Yes. On usbr.gov Chapter 4 PDF page **20** (printed p.**195**), Table IV-7 text objects include `434` in the sand-transport-capacity column for the **Moderate fluctuating flow** alternative.  
-**Awaiting model test:** Run the prompt below and record the miss (likely `424`, `463`, `517`, `30`, `116`, or `58`) before treating as confirmed stump.  
-**Searchable distractors:** same-page prose **"about 30 percent"** habitat-maintenance increase; Modified Low Fluctuating Flow capacity **424** (named in the prompt); High Fluctuating **463**; No Action **517**; Moderate probability column **58**; habitat-maintenance sand-transport difference **+116**.  
-**Secondary traps:** Interim **307**; Seasonally adjusted steady **390**; Existing monthly **259**; Year-round **196**; MLFF probability **59**; Moderate habitat-maintenance probability difference **-12**.  
+**Observed model failure:** Answered `520`. That figure is **not** any selectable cell in Table IV-7. On the correct table, Moderate Fluctuating Flow sand transport capacity is **434**; named distractors are habitat-maintenance prose **about 30 percent** and Modified Low Fluctuating Flow capacity **424**. The nearest same-column trap is Maximum Powerplant Capacity **530** (not **520**); also High **463**, No Action **517**.  
+**Searchable distractors:** same-page prose **"about 30 percent"** habitat-maintenance increase; Modified Low Fluctuating Flow capacity **424** (named in the prompt); High Fluctuating **463**; No Action **517**; Maximum Powerplant Capacity **530**; Moderate probability column **58**; habitat-maintenance sand-transport difference **+116**.  
+**Secondary traps:** Interim **307**; Seasonally adjusted steady **390**; Existing monthly **259**; Year-round **196**; MLFF probability **59**; invented/near-miss **520** (not on table; **530** is the closest capacity cell).  
 **Doc:** 1995 Glen Canyon Dam operations FEIS Chapter IV Environmental Consequences — sediment Table IV-7. Same table as the `424` / `59%` stumps; **Moderate fluctuating flow** row, sand-transport-capacity column.
 
 ---
@@ -130,8 +130,8 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 Same Moderate row traps: probability **58**; habitat-maintenance differences **+116** / **-12**.
 
-**Verify:** Highlightable **434**.  
-**Filter:** Record **434**. Discard **30**, **424**, **463**, **517**, **58**, **+116**.
+**Verify:** Highlightable **434**. Table IV-7 capacity cells on this page do **not** include **520** (nearest is Maximum Powerplant Capacity **530**).  
+**Filter:** Record **434**. Discard **30**, **424**, **463**, **517**, **530**, **58**, **+116**, and invented **520**.
 
 ---
 
@@ -146,4 +146,4 @@ Same Moderate row traps: probability **58**; habitat-maintenance differences **+
 
 ## Failure justification
 
-*(Fill after model test.)* Expected miss patterns: answering **424** from the named MLFF capacity; answering **30** from habitat-maintenance prose; answering **463** / **517** from adjacent capacity rows; answering **58** from the Moderate probability column.
+The model answered **520**. That is not a selectable Table IV-7 sand-transport-capacity cell. On usbr.gov `Chap4.pdf` PDF page **20** (printed **p.195**), Table IV-7 assigns the **Moderate fluctuating flow** alternative a sand transport capacity of **434** (1,000 tons). The prompt’s named distractors are the habitat-maintenance prose **about 30 percent** and the Modified Low Fluctuating Flow capacity **424**. Adjacent capacity cells include High **463**, No Action **517**, and Maximum Powerplant Capacity **530**. The same Moderate row’s probability cell is **58** (wrong column). The table’s selectable capacity set on that page is **517, 530, 463, 434, 424, 307, 259, 390, 196** — it does **not** include **520**. The model never locked the Moderate Fluctuating Flow sand-transport-capacity cell, so it missed **434**.
