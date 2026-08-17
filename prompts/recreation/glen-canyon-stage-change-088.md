@@ -2,9 +2,9 @@
 
 **Answer:** `0.88`  
 **Highlightable?** Yes. On usbr.gov Chapter 4 PDF page **102** (printed p.**277**), Table IV-16 text objects include `0.88` in the maximum-20-minute-stage-change-at-Glen-Canyon-Dam column for the **No action** alternative.  
-**Awaiting model test:** Run the prompt below and record the miss (likely `0.62`, `0.50`, `0.30`, `4.5`, or `0.24`) before treating as confirmed stump.  
-**Searchable distractors:** same-row No Action Lees Ferry 20-minute value **0.62** (named in the prompt); Moderate Dam **0.50**; Modified/Interim Dam **0.30**; No Action stage change per day **4.5**; Moderate Lees Ferry **0.24**.  
-**Secondary traps:** Maximum Powerplant Capacity Dam also **0.88** / Lees Ferry **0.62** (same values as No Action); High Fluctuating Dam **0.88**; MLFF Lees Ferry **0.10**.  
+**Observed model failure:** Answered `1.45`. That figure is **not** any selectable cell in Table IV-16. On the correct table, No Action Dam 20-minute is **0.88**; named same-row Lees Ferry distractor is **0.62**; nearest similar table value is Modified/Interim stage change per day **1.5** (not **1.45**).  
+**Searchable distractors:** same-row No Action Lees Ferry 20-minute value **0.62** (named in the prompt); Moderate Dam **0.50**; Modified/Interim Dam **0.30**; No Action stage change per day **4.5**; Modified/Interim per day **1.5**; Moderate Lees Ferry **0.24**.  
+**Secondary traps:** Maximum Powerplant Capacity / High Fluctuating Dam also **0.88**; invented/near-miss **1.45** (not on table; **1.5** is the closest per-day cell).  
 **Doc:** 1995 Glen Canyon Dam operations FEIS Chapter IV Environmental Consequences — Recreation Table IV-16. Same table as the `0.24` / `0.30` / `0.50` stumps; **No action** row, **Glen Canyon Dam** 20-minute column.
 
 ---
@@ -30,7 +30,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 2. Run this exact query:  
    `"Operation of Glen Canyon Dam" "Final Environmental Impact Statement" 1995`  
 3. Open the Wikipedia result for **Glen Canyon Dam**.  
-4. In **External links**, find **"1995 Glen Canyon EIS"** — direct path to the Step 2 usbr.gov FEIS index (`gcdOpsFEIS.html`).
+4. In **External links**, find **"1995 Glen Canyon EIS"** — that link is the direct path to the Step 2 usbr.gov FEIS index (`gcdOpsFEIS.html`).
 
 **Where to find it:**  
 - Page: https://en.wikipedia.org/wiki/Glen_Canyon_Dam  
@@ -38,8 +38,8 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 - References: *U.S. Bureau of Reclamation (1995). Operation of Glen Canyon Dam...*  
 - External links: **"1995 Glen Canyon EIS"** → https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html
 
-**Verify:** Correct 1995 Reclamation operations FEIS family. Wikipedia has no Table IV-16 feet values (**0.88**, **0.62**, **0.50**).  
-**Filter:** Stay on that FEIS. Skip LTEMP / NAP *Downstream* secondary books.
+**Verify:** Right FEIS family. Wikipedia has no Table IV-16 feet values (**0.88**, **0.62**, **1.45**).  
+**Filter:** Stay on that FEIS. Skip LTEMP / NAP *Downstream*. Do not invent **1.45**.
 
 ---
 
@@ -107,7 +107,8 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 3. Open **Table IV-16**.  
 4. Find row **No action**.  
 5. Read column **Maximum 20-minute stage change at Glen Canyon Dam (feet)** — not Lees Ferry; not stage change per day.  
-6. Highlight/select **0.88**.
+6. Highlight/select **0.88**.  
+7. Confirm you did **not** take **0.62**, **0.50**, **0.30**, **4.5**, **1.5**, or invented **1.45**.
 
 **Where to find it:**  
 - Same URL: https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf  
@@ -118,26 +119,26 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 | Alternative | Per day (ft) | Max 20-min Lees Ferry (ft) | Max 20-min Dam (ft) | Use? |
 |---|---:|---:|---:|---|
 | **No action** | 4.5 | **0.62** | **0.88** | **YES — Dam column only** |
-| Maximum powerplant capacity | 4.5 | 0.62 | 0.88 | NO — same numbers; wrong row if No Action required |
+| Maximum powerplant capacity | 4.5 | 0.62 | 0.88 | NO |
 | High fluctuating flow | 4 | 0.62 | 0.88 | NO |
 | Moderate fluctuating flow | 2.5 | 0.24 | 0.50 | NO |
-| Modified low fluctuating flow | 1.5 | 0.10 | 0.30 | NO |
+| Modified low fluctuating flow | 1.5 | 0.10 | 0.30 | NO — per-day **1.5** nearest to miss **1.45** |
 | Interim low fluctuating flow | 1.5 | 0.10 | 0.30 | NO |
 
-**Verify:** Highlightable **0.88**.  
-**Filter:** Record **0.88**. Discard **0.62**, **0.50**, **0.30**, **4.5**, **0.24**.
+**Verify:** Highlightable **0.88**. Table values on this page do **not** include **1.45**.  
+**Filter:** Record **0.88**. Discard **0.62**, **0.50**, **0.30**, **4.5**, **1.5**, **1.45**.
 
 ---
 
 ## Verification Sources
 
-1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — **GT Step 1**  
-2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — **GT Steps 2 and 4**  
-3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf — PDF p.4 (**GT Step 3**)  
-4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf — PDF p.102 / printed p.277: selectable **0.88**; named Lees Ferry distractor **0.62** (**GT Steps 4 and 5**)
+1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — March 21, 1995 EIS prose; External links "1995 Glen Canyon EIS" (**GT Step 1**)  
+2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — FEIS chapter index (**GT Steps 2 and 4**)  
+3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf — PDF p.4 cover sheet (**GT Step 3**)  
+4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf — PDF p.102 / printed p.277: selectable **0.88**; named Lees Ferry distractor **0.62**; nearest per-day trap **1.5** (not **1.45**) (**GT Steps 4 and 5**)
 
 ---
 
 ## Failure justification
 
-*(Fill after model test.)* Expected miss patterns: answering **0.62** from the named Lees Ferry cell; answering **0.50** / **0.30** from other Dam cells; answering **4.5** from the per-day column.
+The model answered **1.45**. That is not a selectable Table IV-16 stage-change cell. On usbr.gov `Chap4.pdf` PDF page **102** (printed **p.277**), under **No action**, the maximum 20-minute stage change at **Glen Canyon Dam** is **0.88** feet. The prompt’s named same-row distractor is the Lees Ferry 20-minute value **0.62**. Same-table traps include Moderate Dam **0.50**, Modified/Interim Dam **0.30**, No Action per day **4.5**, and Modified/Interim per day **1.5**. The table’s selectable numeric set on that page includes **4.5, 4, 2.5, 1.5, 0.62, 0.24, 0.10, 0.88, 0.50, 0.30** — it does **not** include **1.45**. The model never locked the No Action / Glen Canyon Dam 20-minute cell, so it missed **0.88**.
