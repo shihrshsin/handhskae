@@ -145,10 +145,10 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 
 ## Verification Sources
 
-1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — exact March 21, 1995 EIS prose; 1995 FEIS reference; External links "1995 Glen Canyon EIS"  
-2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — official FEIS chapter index  
-3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf — PDF p.4 cover sheet for document identity  
-4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf — PDF p.102 / printed p.277: Table IV-16 selectable **0.24** (Moderate fluctuating flow, max 20-minute stage change at Lees Ferry); named distractor **0.62**; same-row traps **2.5** / **0.50**
+1. https://en.wikipedia.org/wiki/Glen_Canyon_Dam — exact March 21, 1995 EIS prose; 1995 FEIS reference; External links "1995 Glen Canyon EIS" (**GT Step 1**)  
+2. https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html — official FEIS chapter index (**GT Steps 2 and 4**)  
+3. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Cov-con/cov-con.pdf — PDF p.4 cover sheet for document identity (**GT Step 3**)  
+4. https://www.usbr.gov/uc/envdocs/eis/gc/pdfs/Ch4/Chap4.pdf — PDF p.102 / printed p.277: Table IV-16 selectable **0.24** (Moderate fluctuating flow, max 20-minute stage change at Lees Ferry); named distractor **0.62**; same-row traps **2.5** / **0.50** (**GT Steps 4 and 5**)
 
 ---
 
