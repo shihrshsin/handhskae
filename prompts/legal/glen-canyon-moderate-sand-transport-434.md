@@ -38,8 +38,8 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 - References: *U.S. Bureau of Reclamation (1995). Operation of Glen Canyon Dam...*  
 - External links: **"1995 Glen Canyon EIS"** → https://www.usbr.gov/uc/envdocs/eis/gc/gcdOpsFEIS.html
 
-**Verify:** Correct 1995 Reclamation operations FEIS family. Wikipedia has no Table IV-7 capacity cells (**434**, **424**, **463**).  
-**Filter:** Stay on that FEIS. Skip LTEMP / NAP *Downstream* secondary books.
+**Verify:** Correct 1995 Reclamation operations FEIS family. Wikipedia has no Table IV-7 capacity cells (**434**, **424**, **463**, **530**).  
+**Filter:** Stay on that FEIS. Skip LTEMP / NAP *Downstream* secondary books. Do not invent **520**.
 
 ---
 
@@ -119,7 +119,7 @@ In the 1995 final environmental impact statement on the operation of Glen Canyon
 | Alternative | Sand transport capacity (1,000 tons) | Probability (%) | Use? |
 |---|---:|---:|---|
 | No action | 517 | 47 | NO |
-| Maximum powerplant capacity | 530 | 45 | NO |
+| Maximum powerplant capacity | 530 | 45 | NO — nearest to miss **520** |
 | High fluctuating flow | 463 | 55 | NO |
 | **Moderate fluctuating flow** | **434** | 58 | **YES — capacity only** |
 | Modified low fluctuating flow | **424** | 59 | NO — prompt distractor |
