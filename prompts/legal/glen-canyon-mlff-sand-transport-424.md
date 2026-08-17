@@ -2,9 +2,9 @@
 
 **Answer:** `424`  
 **Highlightable?** Yes. On usbr.gov Chapter 4 PDF page **20** (printed p.**195**), Table IV-7 text objects include `424` in the sand-transport-capacity column for the Modified Low Fluctuating Flow Alternative.  
-**Awaiting model test:** Run the prompt below and record the miss (likely `434`, `463`, `517`, `59`, `117`, or `30`) before treating as confirmed stump.  
+**Observed model failure:** Answered `639` and cited a National Academies secondary book (*Downstream: Adaptive Management of Glen Canyon Dam and the Colorado River Ecosystem*, NAP.edu chapter 13) instead of the lead-agency 1995 FEIS Table IV-7 cell. **639** is not the Chapter IV Table IV-7 MLFF sand-transport-capacity figure. On the correct usbr.gov page, MLFF sand transport capacity is **424**; named same-page distractors include habitat-maintenance prose **about 30 percent**, Moderate capacity **434**, High **463**, No Action **517**, and the MLFF probability column **59**.  
 **Searchable distractors:** same-page prose **"about 30 percent"** net increase in sand transport capacity from habitat maintenance flows; table habitat-maintenance sand-transport difference **+117**; Moderate Fluctuating Flow capacity **434**; High Fluctuating **463**; No Action **517**.  
-**Secondary traps:** MLFF probability-of-net-gain cell **59** (wrong column; prior stump); Interim Low **307** / **70**; Seasonally adjusted steady **390** / **64**; Existing monthly volume steady **259** / **77**; Year-round steady **196** / **82**.  
+**Secondary traps:** MLFF probability-of-net-gain cell **59** (wrong column; prior stump); Interim Low **307** / **70**; Seasonally adjusted steady **390** / **64**; Existing monthly volume steady **259** / **77**; Year-round steady **196** / **82**; off-FEIS National Academies / NAP adaptive-management secondary sources (observed miss path for **639**).  
 **Doc:** 1995 Glen Canyon Dam operations FEIS Chapter IV Environmental Consequences — sediment Table IV-7 (minimum release year, 8.23 maf). Same table as the `59%` probability stump; **sand transport capacity** column.
 
 ---
@@ -146,4 +146,4 @@ Same MLFF row traps: probability **59**; habitat-maintenance differences **+117*
 
 ## Failure justification
 
-*(Fill after model test.)* Expected miss patterns: answering **434** (Moderate capacity); **463** (High); **517** (No Action); **59** (MLFF probability column); **30** / **117** (habitat-maintenance distractors).
+The model answered **639** and cited a National Academies secondary volume (*Downstream: Adaptive Management of Glen Canyon Dam and the Colorado River Ecosystem* on NAP.edu) rather than the lead-agency 1995 FEIS. That is the wrong document family for this ask. On usbr.gov `Chap4.pdf` PDF page **20** (printed **p.195**), Table IV-7 assigns the preferred **Modified Low Fluctuating Flow Alternative** a sand transport capacity of **424** (1,000 tons) for a minimum release year between the Paria River and the Little Colorado River. The prompt’s named same-page distractor is the habitat-maintenance prose **about 30 percent** (table difference **+117** / **-11**). Adjacent capacity cells include Moderate **434**, High **463**, and No Action **517**. The same MLFF row’s probability-of-net-gain cell is **59** (wrong column). The model never locked the MLFF **sand transport capacity** cell on the Chapter IV consequences table, so it missed **424**.
